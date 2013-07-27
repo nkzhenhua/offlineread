@@ -25,12 +25,13 @@ class Sources extends Database {
         // sanitize tag list
         $tags = implode(',', preg_split('/\s*,\s*/', trim($tags), -1, PREG_SPLIT_NO_EMPTY));
 
-        \F3::get('db')->exec('INSERT INTO sources (title, tags, spout, params) VALUES (:title, :tags, :spout, :params)',
+        \F3::get('db')->exec('INSERT INTO sources (title, tags, spout, params,username) VALUES (:title, :tags, :spout, :params,:username)',
                     array(
                         ':title'  => trim($title),
                         ':tags'   => $tags,
                         ':spout'  => $spout,
-                        ':params' => htmlentities(json_encode($params))
+                        ':params' => htmlentities(json_encode($params)),
+                    	':username' => $_SESSION['username']
                     ));
  
         $res = \F3::get('db')->exec('SELECT LAST_INSERT_ID() as lastid');
@@ -105,7 +106,7 @@ class Sources extends Database {
         \F3::get('db')->exec('UPDATE sources SET lastupdate=:lastupdate WHERE id=:id',
                     array(
                         ':id'         => $id,
-                        ':lastupdate' => time()
+                        ':lastupdate' => time(),
                     ));
     }
 
@@ -116,7 +117,7 @@ class Sources extends Database {
      * @return mixed all sources
      */
     public function getByLastUpdate() {
-        $ret = \F3::get('db')->exec('SELECT id, title, tags, spout, params, error FROM sources ORDER BY lastupdate ASC');
+        $ret = \F3::get('db')->exec('SELECT id, title, tags, spout, params, error,username FROM sources ORDER BY lastupdate ASC');
         $spoutLoader = new \helpers\SpoutLoader();
         for($i=0;$i<count($ret);$i++)
             $ret[$i]['spout_obj'] = $spoutLoader->get( $ret[$i]['spout'] );
@@ -130,7 +131,10 @@ class Sources extends Database {
      * @return mixed all sources
      */
     public function get() {
-        $ret = \F3::get('db')->exec('SELECT id, title, tags, spout, params, error FROM sources ORDER BY lower(title) ASC');
+        $ret = \F3::get('db')->exec('SELECT id, title, tags, spout, params, error FROM sources where username=:username 
+        		ORDER BY lower(title) ASC', array(
+        				':username' => $_SESSION['username']
+        ));
         $spoutLoader = new \helpers\SpoutLoader();
         for($i=0;$i<count($ret);$i++)
             $ret[$i]['spout_obj'] = $spoutLoader->get( $ret[$i]['spout'] );

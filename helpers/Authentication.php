@@ -10,7 +10,7 @@ namespace helpers;
  * @license    GPLv3 (http://www.gnu.org/licenses/gpl-3.0.html)
  * @author     Tobias Zeising <tobias.zeising@aditu.de>
  */
-class Authentication {
+class Authentication extends \daos\Database {
 
     /**
      * loggedin
@@ -30,6 +30,7 @@ class Authentication {
      * start session and check login
      */
     public function __construct() {
+    	parent::__construct();
         // session cookie will be valid for one month
         session_set_cookie_params((3600*24*30), "/");
         
@@ -38,8 +39,10 @@ class Authentication {
             session_start();
         if(isset($_SESSION['loggedin']) && $_SESSION['loggedin']===true)
             $this->loggedin = true;
-        $this->enabled = strlen(trim(\F3::get('username')))!=0 && strlen(trim(\F3::get('password')))!=0;
-        
+//        $this->enabled = strlen(trim(\F3::get('username')))!=0 && strlen(trim(\F3::get('password')))!=0;
+			//must login with username and passwd
+          $this->enabled = true;
+          
         // autologin if request contains unsername and password
         if( $this->enabled===true 
             && $this->loggedin===false
@@ -83,17 +86,47 @@ class Authentication {
      */
     public function login($username, $password) {
         if($this->enabled()) {
-            if(
-//                $username == \F3::get('username') &&  hash("sha512", \F3::get('salt') . $password) == \F3::get('password')
-                  $username == \F3::get('username') &&  $password == \F3::get('password')        
+        	$res = \F3::get('db')->exec('SELECT passwd AS passwd FROM users WHERE username=:username',array(':username' => $username));
+            if(isset($res[0]['passwd']) &&
+               hash("md5", \F3::get('salt') . $password) == $res[0]['passwd']
 ) {
                 $this->loggedin = true;
+                $_SESSION['username'] = $username;
+                \F3::set('username',$username);
                 $_SESSION['loggedin'] = true;
                 return true;
             }
         }
         return false;
     }
+    
+	/**
+	 * register user
+	 *
+	 * @return bool
+	 * @param string $username        	
+	 * @param string $password        	
+	 */
+	public function register($username, $password) {
+		$res = \F3::get ( 'db' )->exec ( 'SELECT username AS username FROM users WHERE username=:username', array (
+				':username' => $username 
+		) );
+		if (isset ( $res[0]['username'] )) {
+			return false;
+		}
+		
+		$pswd = hash ( "md5", \F3::get ( 'salt' ) . $password );
+		\F3::get ( 'db' )->exec ( 'insert into users (username,passwd) values (:username, :passwd)', array (
+				':username' => $username,
+				':passwd' => $pswd 
+		) );
+		
+		$this->loggedin = true;
+		$_SESSION ['username'] = $username;
+		\F3::set ( 'username', $username );
+		$_SESSION ['loggedin'] = true;
+		return true;
+	}
     
     
     /**
@@ -116,6 +149,9 @@ class Authentication {
     public function logout() {
         $this->loggedin = false;
         $_SESSION['loggedin'] = false;
+        $_SESSION['username'] = "";
+        unset($_SESSION['username']);
+        \F3::set('username',"");
         session_destroy();
     }
 }

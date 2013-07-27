@@ -68,6 +68,9 @@ $f3->route('POST /',          'controllers\Index->home');     // html
 $f3->route('GET /password',   'controllers\Index->password'); // html
 $f3->route('POST /password',  'controllers\Index->password'); // html
 $f3->route('GET /login',      'controllers\Index->login');    // json
+$f3->route('POST /login',     'controllers\Index->login');    // json
+$f3->route('GET /register',   'controllers\Index->register');    // json
+$f3->route('POST /register',  'controllers\Index->register');    // json
 $f3->route('GET /logout',     'controllers\Index->logout');   // json
 $f3->route('GET /update',     'controllers\Index->update');   // text
 

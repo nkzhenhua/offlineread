@@ -101,7 +101,8 @@ class Items extends Database {
                     thumbnail, 
                     icon, 
                     uid,
-                    link
+                    link,
+        			username
                   ) VALUES (
                     :datetime, 
                     :title, 
@@ -113,6 +114,7 @@ class Items extends Database {
                     :icon, 
                     :uid,
                     :link
+        			:username
                   )',
                  array(
                     ':datetime'    => $values['datetime'],
@@ -124,7 +126,8 @@ class Items extends Database {
                     ':starred'     => 0,
                     ':source'      => $values['source'],
                     ':uid'         => $values['uid'],
-                    ':link'        => $values['link']
+                    ':link'        => $values['link'],
+                 	':username' => $values['username']
                  ));
     }
     
@@ -153,8 +156,10 @@ class Items extends Database {
         \F3::get('db')->exec('DELETE FROM items USING items LEFT JOIN sources
                                 ON items.source=sources.id WHERE sources.id IS NULL');
         if ($date !== NULL)
-            \F3::get('db')->exec('DELETE FROM items WHERE starred=0 AND datetime<:date',
-                    array(':date' => $date->format('Y-m-d').' 00:00:00'));
+            \F3::get('db')->exec('DELETE FROM items WHERE starred=0 AND datetime<:date AND username=:username',
+                    array(':date' => $date->format('Y-m-d').' 00:00:00',
+                    		':username' => $_SESSION['username']
+        ));
     }
     
     
@@ -197,6 +202,10 @@ class Items extends Database {
             $params[':source'] = array($options['source'], \PDO::PARAM_INT);
             $where .= " AND items.source=:source ";
         }
+        
+        //username filter
+        $where .= " AND sources.username =:username";
+        $params[':username'] = $_SESSION['username'];
         
         // set limit
         if(!is_numeric($options['items']) || $options['items']>200)
@@ -353,7 +362,10 @@ class Items extends Database {
      * @return int amount of entries in database
      */
     public function numberOfItems() {
-        $res = \F3::get('db')->exec('SELECT count(*) AS amount FROM items');
+        $res = \F3::get('db')->exec('SELECT count(*) AS amount FROM items where username=:username',
+        array(
+        	':username' => $_SESSION['username']
+        ));
         return $res[0]['amount'];
     }
     
@@ -366,7 +378,9 @@ class Items extends Database {
     public function numberOfUnread() {
         $res = \F3::get('db')->exec('SELECT count(*) AS amount
                    FROM items 
-                   WHERE unread=1');
+                   WHERE unread=1 AND username=:username',array(
+                   		':username' => $_SESSION['username']
+        ));
         return $res[0]['amount'];
     }
     
@@ -379,7 +393,9 @@ class Items extends Database {
     public function numberOfStarred() {
         $res = \F3::get('db')->exec('SELECT count(*) AS amount
                    FROM items 
-                   WHERE starred=1');
+                   WHERE starred=1 AND username=:username',array(
+                   		':username' => $_SESSION['username']
+        )); 		
         return $res[0]['amount'];
     }
     
@@ -397,8 +413,10 @@ class Items extends Database {
         } else {
             $where .= " AND ( (',' || sources.tags || ',') LIKE :tag ) ";
         }
+        $where .= " AND sources.username =:username";
         $res = \F3::get('db')->exec( $select . $where,
-            array(':tag' => "%,".$tag.",%"));
+            array(':tag' => "%,".$tag.",%",
+        ':username' => $_SESSION['username']));
         return $res[0]['amount'];
     }
     
@@ -410,8 +428,9 @@ class Items extends Database {
      */
     public function numberOfUnreadForSource($sourceid) {
         $res = \F3::get('db')->exec(
-            'SELECT count(*) AS amount FROM items WHERE source=:source AND unread=1',
-            array(':source' => $sourceid));
+            'SELECT count(*) AS amount FROM items WHERE source=:source AND unread=1 AND username=:username',
+            array(':source' => $sourceid,
+        ':username' => $_SESSION['username']));
         return $res[0]['amount'];
     }
 

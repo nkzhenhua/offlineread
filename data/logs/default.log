@@ -159,3 +159,66 @@
 07-27-13 15:06:07 Debug delete orphaned icons finished
 07-27-13 15:06:07 Debug optimize database
 07-27-13 15:06:07 Debug optimize database finished
+07-27-13 23:49:42 Debug ---
+07-27-13 23:49:42 Debug start fetching source "sina (id: 1) 
+07-27-13 23:49:42 Debug spout successfully loaded: spouts\rss\feed
+07-27-13 23:49:42 Debug fetch content
+07-27-13 23:49:42 Debug minimum date: 2013-06-27 23:49:42
+07-27-13 23:49:42 Debug start item fetching
+07-27-13 23:49:42 Debug start insertion of new item "抗美援朝战争打出了中国的国威军威打出了中国60余年的和平时期"
+07-27-13 23:49:42 Debug item content sanitized
+07-27-13 23:49:42 Debug icon generated: http://blog.sina.com.cn/favicon.ico
+07-27-13 23:52:47 Debug ---
+07-27-13 23:52:47 Debug start fetching source "sina (id: 1) 
+07-27-13 23:52:47 Debug spout successfully loaded: spouts\rss\feed
+07-27-13 23:52:47 Debug fetch content
+07-27-13 23:52:47 Debug minimum date: 2013-06-27 23:52:47
+07-27-13 23:52:47 Debug start item fetching
+07-27-13 23:52:47 Debug start insertion of new item "抗美援朝战争打出了中国的国威军威打出了中国60余年的和平时期"
+07-27-13 23:52:47 Debug item content sanitized
+07-27-13 23:52:47 Debug icon generated: http://blog.sina.com.cn/favicon.ico
+07-27-13 23:52:49 Debug ---
+07-27-13 23:52:49 Debug start fetching source "sina (id: 1) 
+07-27-13 23:52:49 Debug spout successfully loaded: spouts\rss\feed
+07-27-13 23:52:49 Debug fetch content
+07-27-13 23:52:49 Debug minimum date: 2013-06-27 23:52:49
+07-27-13 23:52:49 Debug start item fetching
+07-27-13 23:52:49 Debug start insertion of new item "抗美援朝战争打出了中国的国威军威打出了中国60余年的和平时期"
+07-27-13 23:52:49 Debug item content sanitized
+07-27-13 23:52:49 Debug icon generated: http://blog.sina.com.cn/favicon.ico
+07-27-13 23:54:54 Debug ---
+07-27-13 23:54:54 Debug start fetching source "sina (id: 1)  username:
+07-27-13 23:54:54 Debug spout successfully loaded: spouts\rss\feed
+07-27-13 23:54:54 Debug fetch content
+07-27-13 23:54:54 Debug minimum date: 2013-06-27 23:54:54
+07-27-13 23:54:54 Debug start item fetching
+07-27-13 23:54:54 Debug start insertion of new item "抗美援朝战争打出了中国的国威军威打出了中国60余年的和平时期"
+07-27-13 23:54:54 Debug item content sanitized
+07-27-13 23:54:55 Debug icon generated: http://blog.sina.com.cn/favicon.ico
+07-27-13 23:57:05 Debug ---
+07-27-13 23:57:05 Debug start fetching source "bbbbb (id: 2)  username:zhenhua
+07-27-13 23:57:05 Debug spout successfully loaded: spouts\rss\feed
+07-27-13 23:57:05 Debug fetch content
+07-27-13 23:57:05 Debug minimum date: 2013-06-27 23:57:05
+07-27-13 23:57:05 Debug start item fetching
+07-27-13 23:57:05 Debug start insertion of new item "多个职位多条“命”？"
+07-27-13 23:57:05 Debug item content sanitized
+07-27-13 23:57:05 Debug icon generated: http://blog.sina.com.cn/favicon.ico
+07-27-13 23:59:01 Debug ---
+07-27-13 23:59:01 Debug start fetching source "bbbbb (id: 2)  username:zhenhua
+07-27-13 23:59:01 Debug spout successfully loaded: spouts\rss\feed
+07-27-13 23:59:01 Debug fetch content
+07-27-13 23:59:01 Debug minimum date: 2013-06-27 23:59:01
+07-27-13 23:59:01 Debug start item fetching
+07-27-13 23:59:01 Debug start insertion of new item "多个职位多条“命”？"
+07-27-13 23:59:01 Debug item content sanitized
+07-27-13 23:59:01 Debug icon generated: http://blog.sina.com.cn/favicon.ico
+07-28-13 0:01:42 Debug ---
+07-28-13 0:01:42 Debug start fetching source "aaaa (id: 3)  username:zhenhua
+07-28-13 0:01:42 Debug spout successfully loaded: spouts\rss\feed
+07-28-13 0:01:42 Debug fetch content
+07-28-13 0:01:42 Debug minimum date: 2013-06-28 00:01:42
+07-28-13 0:01:42 Debug start item fetching
+07-28-13 0:01:42 Debug start insertion of new item "抗美援朝战争打出了中国的国威军威打出了中国60余年的和平时期"
+07-28-13 0:01:42 Debug item content sanitized
+07-28-13 0:01:42 Debug icon generated: http://blog.sina.com.cn/favicon.ico

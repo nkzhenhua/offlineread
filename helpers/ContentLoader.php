@@ -63,7 +63,7 @@ class ContentLoader {
         
         // logging
         \F3::get('logger')->log('---', \DEBUG);
-        \F3::get('logger')->log('start fetching source "'. $source['title'] . ' (id: '.$source['id'].') ', \DEBUG);
+        \F3::get('logger')->log('start fetching source "'. $source['title'] . ' (id: '.$source['id'].') '.' username:'.$source['username'], \DEBUG);
         
         // get spout
         $spoutLoader = new \helpers\SpoutLoader();
@@ -135,7 +135,8 @@ class ContentLoader {
                     'uid'          => $item->getId(),
                     'thumbnail'    => $item->getThumbnail(),
                     'icon'         => $icon!==false ? $icon : "",
-                    'link'         => htmLawed($item->getLink(), array("deny_attribute" => "*", "elements" => "-*"))
+                    'link'         => htmLawed($item->getLink(), array("deny_attribute" => "*", "elements" => "-*")),
+            		'username'     => $source['username']
             );
             
             // save thumbnail

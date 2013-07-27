@@ -1,0 +1,44 @@
+<!doctype html>  
+<head>
+    <base href="<?PHP echo $this->base; ?>" /> 
+
+    <meta charset="utf-8">
+
+    <title>rss for mobile</title>
+    
+    <meta name="description" content="rss for mobile" />
+    <meta name="author" content="nkzhenhua@gmail.com" />
+
+    <!--  Mobile viewport optimized: j.mp/bplateviewport -->
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1" />
+    
+    <!-- app 'behaviour' when adding link to iDevice springboard -->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+
+    <!-- Place favicon.ico & apple-touch-icon.png in the root of your domain and delete these references -->
+    <link rel="shortcut icon" href="favicon.ico" />
+    <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+
+    <!-- all css definitions -->
+    <?PHP if(\F3::get('use_system_font')!=true) : ?>
+        <link rel="stylesheet" href="css/fonts.css" />
+    <?PHP endif; ?>
+    <link rel="stylesheet" href="all.css" />
+
+</head>
+<body>
+
+    <form action="<?PHP echo $this->base; ?>?register=1" method="post">
+    <ul id="login">
+        <li><h1>selfoss register</h1></li>
+        <li><label><?PHP echo \F3::get('lang_login_username'); ?>:</label> <input type="text" name="username" id="username" /></li>
+        <li><label><?PHP echo \F3::get('lang_login_password'); ?>:</label> <input type="password" name="password" /></li>
+        <?PHP if(isset($this->error)) : ?>
+        <li class="error"><?PHP echo $this->error; ?></li>
+        <?PHP endif; ?>
+        <li class="button"><label>&nbsp;</label><input type="submit" value="<?PHP echo \F3::get('lang_regist'); ?>" /></li>
+    </ul>
+    </form>
+    <script src="all.js"></script>
+</body>
+</html>

@@ -93,7 +93,7 @@ class Index extends BaseController {
         $this->view = new \helpers\View();
         $this->view->password = true;
         if(isset($_POST['password']))
-            $this->view->hash = hash("sha512", \F3::get('salt') . $_POST['password']);
+            $this->view->hash = hash("md5", \F3::get('salt') . $_POST['password']);
         echo $this->view->render('templates/login.phtml');
     }
     
@@ -109,6 +109,25 @@ class Index extends BaseController {
         if(isset($_GET['logout'])) {
             \F3::get('auth')->logout();
             \F3::reroute($this->view->base);
+        }
+        if ( isset($_GET['register']))
+        {
+        	if(count($_POST)>0) {
+        		if(!isset($_POST['username']))
+        			$this->view->error = 'no username given';
+        		else if(!isset($_POST['password']))
+        			$this->view->error = 'no password given';
+        		else {
+        			if(\F3::get('auth')->register($_POST['username'], $_POST['password'])===false)
+        				$this->view->error = 'user name existed';
+        		}
+        	}
+        	 
+        	// show login
+        	if(count($_POST)==0 || isset($this->view->error))
+        		die($this->view->render('templates/register.phtml'));
+        	else
+        		\F3::reroute($this->view->base);
         }
         
         // login
@@ -133,7 +152,7 @@ class Index extends BaseController {
                 die($this->view->render('templates/login.phtml'));
             else
                 \F3::reroute($this->view->base);
-        }        
+        }
     }
     
     
@@ -156,6 +175,28 @@ class Index extends BaseController {
         $view->jsonSuccess(array(
             'success' => false
         ));
+    }
+
+    /**
+     * register for api json access
+     * json
+     *
+     * @return void
+     */
+    public function register() {
+    	
+    	$view = new \helpers\View();
+    	$username = isset($_REQUEST["username"]) ? $_REQUEST["username"] : '';
+    	$password = isset($_REQUEST["password"]) ? $_REQUEST["password"] : '';
+    
+    	if(\F3::get('auth')->register($username,$password)==true)
+    		$view->jsonSuccess(array(
+    				'success' => true
+    		));
+    
+    	$view->jsonSuccess(array(
+    			'success' => false
+    	));
     }
     
 

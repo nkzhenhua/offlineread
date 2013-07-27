@@ -44,19 +44,16 @@ class Database {
 
             if(!in_array('users', $tables))
             	\F3::get('db')->exec('
-                    CREATE TABLE items (
-                        id INT NOT NULL AUTO_INCREMENT PRIMARY KEY ,
-                        datetime DATETIME NOT NULL ,
-                        title TEXT NOT NULL ,
-                        content LONGTEXT NOT NULL ,
-                        thumbnail TEXT ,
-                        icon TEXT ,
-                        unread BOOL NOT NULL ,
-                        starred BOOL NOT NULL ,
-                        source INT NOT NULL ,
-                        uid VARCHAR(255) NOT NULL,
-                        link TEXT NOT NULL,
-                        INDEX (source)
+                    CREATE TABLE users (
+            			username char(64) PRIMARY KEY,
+            			passwd char(16) NOT NULL,
+            			deliver_email char(64),
+            			deliver_time time,
+            			deliver_end_date date,
+            			deliver_enable tinyint,
+            			source_num_limit int,
+            			items_num_limit int,
+                        INDEX (username)
                     ) ENGINE = MYISAM DEFAULT CHARSET=utf8;
                 ');
             
@@ -64,6 +61,7 @@ class Database {
                 \F3::get('db')->exec('
                     CREATE TABLE items (
                         id INT NOT NULL AUTO_INCREMENT PRIMARY KEY ,
+                		username char(64) NOT NULL,
                         datetime DATETIME NOT NULL ,
                         title TEXT NOT NULL ,
                         content LONGTEXT NOT NULL ,
@@ -74,7 +72,7 @@ class Database {
                         source INT NOT NULL ,
                         uid VARCHAR(255) NOT NULL,
                         link TEXT NOT NULL,
-                        INDEX (source)
+                        INDEX (source,username)
                     ) ENGINE = MYISAM DEFAULT CHARSET=utf8;
                 ');
             
@@ -83,6 +81,7 @@ class Database {
                 \F3::get('db')->exec('
                     CREATE TABLE sources (
                         id INT NOT NULL AUTO_INCREMENT PRIMARY KEY ,
+                		username char(64) NOT NULL,
                         title TEXT NOT NULL ,
                         tags TEXT,
                         spout TEXT NOT NULL ,
@@ -112,27 +111,7 @@ class Database {
                         color       VARCHAR(7) NOT NULL
                     ) DEFAULT CHARSET=utf8;
                 ');
-                
-                if($isNewestSourcesTable===false) {
-                    \F3::get('db')->exec('
-                        ALTER TABLE sources ADD tags TEXT;
-                    ');
-                }
-            }
-            else{
-                $version = @\F3::get('db')->exec('SELECT version FROM version ORDER BY version DESC LIMIT 0, 1');
-                $version = $version[0]['version'];
-                
-                if($version == "2"){
-                    \F3::get('db')->exec('
-                        ALTER TABLE sources ADD lastupdate INT;
-                    ');
-                    \F3::get('db')->exec('
-                        INSERT INTO version (version) VALUES (3);
-                    ');
-                }
-            }
-            
+            }            
             // just initialize once
             $initialized = true;
         }

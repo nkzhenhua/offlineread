@@ -40,8 +40,14 @@
         <li class="button"><label>&nbsp;</label><input type="submit" value="<?PHP echo \F3::get('lang_login'); ?>" /></li>
     </ul>
     </form>
+ <form action="<?PHP echo $this->base; ?>?register=1" method="post">    
+    <ul id="register">
+        <li class="button"><label>&nbsp;</label><input type="submit" value="<?PHP echo \F3::get('lang_regist'); ?>" /></li>
+    </ul>
+</form>
     
     <?PHP else : ?>
+    
     <form action="<?PHP echo $this->base; ?>password" method="post">
     <ul id="login">
         <li><h1>hash generator</h1></li>
