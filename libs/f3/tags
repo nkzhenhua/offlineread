@@ -1,0 +1,3 @@
+Copyright	./license.txt	/^Copyright (C) 2007 Free Software Foundation, Inc. /
+if	./web.php	/^if (!function_exists('gzdecode')) {$/
+rerouet	./changelog.txt	/^*	Allow user to control whether Base->rerouet() us/

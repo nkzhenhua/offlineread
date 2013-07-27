@@ -1,0 +1,161 @@
+07-27-13 10:08:12 Debug ---
+07-27-13 10:08:12 Debug start fetching source "test (id: 1) 
+07-27-13 10:08:12 Debug spout successfully loaded: spouts\rss\feed
+07-27-13 10:08:12 Debug fetch content
+07-27-13 10:08:13 Debug minimum date: 2013-06-27 10:08:13
+07-27-13 10:08:13 Debug start item fetching
+07-27-13 10:08:13 Debug start insertion of new item "局长为何遭黑客攻击变“黑社会”头目？"
+07-27-13 10:08:13 Debug item content sanitized
+07-27-13 10:08:13 Debug icon generated: http://blog.sina.com.cn/favicon.ico
+07-27-13 10:08:13 Debug item inserted
+07-27-13 10:08:13 Debug Memory usage: 10779360
+07-27-13 10:08:13 Debug Memory peak usage: 11073072
+07-27-13 10:08:13 Debug destroy spout object
+07-27-13 10:08:13 Debug ---
+07-27-13 10:08:13 Debug start fetching source "aaa (id: 2) 
+07-27-13 10:08:13 Debug spout successfully loaded: spouts\rss\feed
+07-27-13 10:08:13 Debug fetch content
+07-27-13 10:08:13 Debug minimum date: 2013-06-27 10:08:13
+07-27-13 10:08:13 Debug start item fetching
+07-27-13 10:08:13 Debug destroy spout object
+07-27-13 10:08:13 Debug cleanup orphaned and old items
+07-27-13 10:08:13 Debug cleanup orphaned and old items finished
+07-27-13 10:08:13 Debug delete orphaned thumbnails
+07-27-13 10:08:13 Debug delete orphaned thumbnails finished
+07-27-13 10:08:13 Debug delete orphaned icons
+07-27-13 10:08:13 Debug delete orphaned icons finished
+07-27-13 10:08:13 Debug optimize database
+07-27-13 10:08:13 Debug optimize database finished
+07-27-13 12:05:54 Debug ---
+07-27-13 12:05:54 Debug start fetching source "shihanbin (id: 3) 
+07-27-13 12:05:54 Debug spout successfully loaded: spouts\rss\feed
+07-27-13 12:05:54 Debug fetch content
+07-27-13 12:05:54 Debug minimum date: 2013-06-27 12:05:54
+07-27-13 12:05:54 Debug start item fetching
+07-27-13 12:05:54 Debug start insertion of new item "结合大环境分析趋势（贷款利率下限取消为例——大道至简之十八）"
+07-27-13 12:05:54 Debug item content sanitized
+07-27-13 12:05:54 Debug icon generated: http://shihb.blog.sohu.com/favicon.ico
+07-27-13 12:05:54 Debug item inserted
+07-27-13 12:05:54 Debug Memory usage: 12182136
+07-27-13 12:05:54 Debug Memory peak usage: 13037320
+07-27-13 12:05:54 Debug start insertion of new item "老母鸡、小鸡和狼"
+07-27-13 12:05:54 Debug item content sanitized
+07-27-13 12:05:54 Debug use last icon: http://shihb.blog.sohu.com/favicon.ico
+07-27-13 12:05:54 Debug item inserted
+07-27-13 12:05:54 Debug Memory usage: 12209064
+07-27-13 12:05:54 Debug Memory peak usage: 13037320
+07-27-13 12:05:54 Debug item "参照物中找趋势（大道至简之十七）" (2013-06-12 00:25:17) older than 30 days
+07-27-13 12:05:54 Debug item "★小村系列之十九：苍蝇和老虎" (2013-06-10 22:05:47) older than 30 days
+07-27-13 12:05:54 Debug item "守望春天" (2013-06-04 07:49:34) older than 30 days
+07-27-13 12:05:54 Debug item "“20万亿”小于“4万亿” ——从表象到实质的溯源（大道至简16）" (2013-05-25 18:50:12) older than 30 days
+07-27-13 12:05:54 Debug item "假如美国退出刺激计划" (2013-05-14 13:26:48) older than 30 days
+07-27-13 12:05:54 Debug item "财经郎眼：国五条调控（新版财经郎眼）" (2013-05-06 15:33:35) older than 30 days
+07-27-13 12:05:54 Debug item "未来的趋势与演变" (2013-04-13 18:29:44) older than 30 days
+07-27-13 12:05:54 Debug item "黄金的沉默与辉煌" (2013-04-13 12:40:04) older than 30 days
+07-27-13 12:05:54 Debug item "“新国五条”细则分析之二" (2013-03-05 00:33:33) older than 30 days
+07-27-13 12:05:54 Debug item "“新国五条”调控细则的影响分析" (2013-03-03 23:44:31) older than 30 days
+07-27-13 12:05:54 Debug item "来自加勒比的震撼——序《加勒比飓风》" (2013-02-20 23:36:58) older than 30 days
+07-27-13 12:05:54 Debug item "“大道至简”投资系列1—15的链接" (2013-02-01 17:37:28) older than 30 days
+07-27-13 12:05:54 Debug item "拥抱泡沫，与之共舞" (2013-01-30 23:33:19) older than 30 days
+07-27-13 12:05:54 Debug item "国际大棋局加速演变" (2013-01-10 23:24:16) older than 30 days
+07-27-13 12:05:54 Debug item "为在病痛中呻吟的农民工再次紧急呼吁" (2012-12-20 12:29:12) older than 30 days
+07-27-13 12:05:54 Debug item "韩文版《时寒冰说：经济大棋局，我们怎么办》封面" (2012-12-07 13:17:27) older than 30 days
+07-27-13 12:05:54 Debug item "世界是一盘大棋局" (2012-11-19 23:11:32) older than 30 days
+07-27-13 12:05:54 Debug destroy spout object
+07-27-13 12:05:54 Debug cleanup orphaned and old items
+07-27-13 12:05:54 Debug cleanup orphaned and old items finished
+07-27-13 12:05:54 Debug delete orphaned thumbnails
+07-27-13 12:05:54 Debug delete orphaned thumbnails finished
+07-27-13 12:05:54 Debug delete orphaned icons
+07-27-13 12:05:54 Debug delete orphaned icons finished
+07-27-13 12:05:54 Debug optimize database
+07-27-13 12:05:54 Debug optimize database finished
+07-27-13 15:06:06 Debug ---
+07-27-13 15:06:06 Debug start fetching source "sina (id: 4) 
+07-27-13 15:06:06 Debug spout successfully loaded: spouts\rss\feed
+07-27-13 15:06:06 Debug fetch content
+07-27-13 15:06:06 Debug minimum date: 2013-06-27 15:06:06
+07-27-13 15:06:06 Debug start item fetching
+07-27-13 15:06:06 Debug start insertion of new item "抗美援朝战争打出了中国的国威军威打出了中国60余年的和平时期"
+07-27-13 15:06:06 Debug item content sanitized
+07-27-13 15:06:06 Debug icon generated: http://blog.sina.com.cn/favicon.ico
+07-27-13 15:06:06 Debug item inserted
+07-27-13 15:06:06 Debug Memory usage: 10821080
+07-27-13 15:06:06 Debug Memory peak usage: 11133016
+07-27-13 15:06:06 Debug start insertion of new item "美、日2012军力评估报告（民间版）访谈实录"
+07-27-13 15:06:06 Debug item content sanitized
+07-27-13 15:06:06 Debug use last icon: http://blog.sina.com.cn/favicon.ico
+07-27-13 15:06:06 Debug item inserted
+07-27-13 15:06:06 Debug Memory usage: 10889456
+07-27-13 15:06:06 Debug Memory peak usage: 11408096
+07-27-13 15:06:06 Debug start insertion of new item "安倍晋三正在把中日关系推向深渊"
+07-27-13 15:06:06 Debug item content sanitized
+07-27-13 15:06:06 Debug use last icon: http://blog.sina.com.cn/favicon.ico
+07-27-13 15:06:06 Debug item inserted
+07-27-13 15:06:06 Debug Memory usage: 10886792
+07-27-13 15:06:06 Debug Memory peak usage: 11408096
+07-27-13 15:06:06 Debug start insertion of new item "两岸军人应抛弃前嫌，共卫“祖权”"
+07-27-13 15:06:06 Debug item content sanitized
+07-27-13 15:06:06 Debug use last icon: http://blog.sina.com.cn/favicon.ico
+07-27-13 15:06:06 Debug item inserted
+07-27-13 15:06:06 Debug Memory usage: 10905416
+07-27-13 15:06:06 Debug Memory peak usage: 11408096
+07-27-13 15:06:06 Debug start insertion of new item "榜样的力量是无穷的"
+07-27-13 15:06:06 Debug item content sanitized
+07-27-13 15:06:06 Debug use last icon: http://blog.sina.com.cn/favicon.ico
+07-27-13 15:06:06 Debug item inserted
+07-27-13 15:06:06 Debug Memory usage: 10922424
+07-27-13 15:06:06 Debug Memory peak usage: 11408096
+07-27-13 15:06:06 Debug start insertion of new item "转凤凰网采访《罗援解读中国鹰》"
+07-27-13 15:06:06 Debug item content sanitized
+07-27-13 15:06:06 Debug use last icon: http://blog.sina.com.cn/favicon.ico
+07-27-13 15:06:06 Debug item inserted
+07-27-13 15:06:06 Debug Memory usage: 11038920
+07-27-13 15:06:06 Debug Memory peak usage: 11738520
+07-27-13 15:06:06 Debug start insertion of new item "[转载]热烈庆祝中国共产党建党九十二周年！"
+07-27-13 15:06:06 Debug item content sanitized
+07-27-13 15:06:06 Debug use last icon: http://blog.sina.com.cn/favicon.ico
+07-27-13 15:06:06 Debug item inserted
+07-27-13 15:06:06 Debug Memory usage: 11004192
+07-27-13 15:06:06 Debug Memory peak usage: 11738520
+07-27-13 15:06:06 Debug start insertion of new item "警惕日本重蹈军国主义覆辙"
+07-27-13 15:06:06 Debug item content sanitized
+07-27-13 15:06:06 Debug use last icon: http://blog.sina.com.cn/favicon.ico
+07-27-13 15:06:06 Debug item inserted
+07-27-13 15:06:06 Debug Memory usage: 11082120
+07-27-13 15:06:06 Debug Memory peak usage: 11738520
+07-27-13 15:06:06 Debug item "中国绝不会接受菲律宾以任何形式非法侵占仁爱礁" (2013-06-22 09:43:11) older than 30 days
+07-27-13 15:06:06 Debug item "为构建中美新型大国关系增砖添瓦" (2013-06-17 13:10:08) older than 30 days
+07-27-13 15:06:06 Debug destroy spout object
+07-27-13 15:06:06 Debug ---
+07-27-13 15:06:06 Debug start fetching source "shihanbin (id: 3) 
+07-27-13 15:06:06 Debug spout successfully loaded: spouts\rss\feed
+07-27-13 15:06:06 Debug fetch content
+07-27-13 15:06:07 Debug minimum date: 2013-06-27 15:06:07
+07-27-13 15:06:07 Debug start item fetching
+07-27-13 15:06:07 Debug item "参照物中找趋势（大道至简之十七）" (2013-06-12 00:25:17) older than 30 days
+07-27-13 15:06:07 Debug item "★小村系列之十九：苍蝇和老虎" (2013-06-10 22:05:47) older than 30 days
+07-27-13 15:06:07 Debug item "守望春天" (2013-06-04 07:49:34) older than 30 days
+07-27-13 15:06:07 Debug item "“20万亿”小于“4万亿” ——从表象到实质的溯源（大道至简16）" (2013-05-25 18:50:12) older than 30 days
+07-27-13 15:06:07 Debug item "假如美国退出刺激计划" (2013-05-14 13:26:48) older than 30 days
+07-27-13 15:06:07 Debug item "财经郎眼：国五条调控（新版财经郎眼）" (2013-05-06 15:33:35) older than 30 days
+07-27-13 15:06:07 Debug item "未来的趋势与演变" (2013-04-13 18:29:44) older than 30 days
+07-27-13 15:06:07 Debug item "黄金的沉默与辉煌" (2013-04-13 12:40:04) older than 30 days
+07-27-13 15:06:07 Debug item "“新国五条”细则分析之二" (2013-03-05 00:33:33) older than 30 days
+07-27-13 15:06:07 Debug item "“新国五条”调控细则的影响分析" (2013-03-03 23:44:31) older than 30 days
+07-27-13 15:06:07 Debug item "来自加勒比的震撼——序《加勒比飓风》" (2013-02-20 23:36:58) older than 30 days
+07-27-13 15:06:07 Debug item "“大道至简”投资系列1—15的链接" (2013-02-01 17:37:28) older than 30 days
+07-27-13 15:06:07 Debug item "拥抱泡沫，与之共舞" (2013-01-30 23:33:19) older than 30 days
+07-27-13 15:06:07 Debug item "国际大棋局加速演变" (2013-01-10 23:24:16) older than 30 days
+07-27-13 15:06:07 Debug item "为在病痛中呻吟的农民工再次紧急呼吁" (2012-12-20 12:29:12) older than 30 days
+07-27-13 15:06:07 Debug item "韩文版《时寒冰说：经济大棋局，我们怎么办》封面" (2012-12-07 13:17:27) older than 30 days
+07-27-13 15:06:07 Debug item "世界是一盘大棋局" (2012-11-19 23:11:32) older than 30 days
+07-27-13 15:06:07 Debug destroy spout object
+07-27-13 15:06:07 Debug cleanup orphaned and old items
+07-27-13 15:06:07 Debug cleanup orphaned and old items finished
+07-27-13 15:06:07 Debug delete orphaned thumbnails
+07-27-13 15:06:07 Debug delete orphaned thumbnails finished
+07-27-13 15:06:07 Debug delete orphaned icons
+07-27-13 15:06:07 Debug delete orphaned icons finished
+07-27-13 15:06:07 Debug optimize database
+07-27-13 15:06:07 Debug optimize database finished
