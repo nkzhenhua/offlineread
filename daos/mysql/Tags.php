@@ -21,20 +21,24 @@ class Tags extends Database {
      */
     public function saveTagColor($tag, $color) {
         if($this->hasTag($tag)===true) {
-            \F3::get('db')->exec('UPDATE tags SET color=:color WHERE tag=:tag',
+            \F3::get('db')->exec('UPDATE tags SET color=:color WHERE tag=:tag AND username=:username',
                     array(':tag'   => $tag,
-                          ':color' => $color));
+                          ':color' => $color,
+            				':username' => $_SESSION['username']));
         } else {
             \F3::get('db')->exec('INSERT INTO tags (
                     tag, 
-                    color
+                    color,
+            		username           		
                   ) VALUES (
                     :tag, 
-                    :color
+                    :color,
+            		:username
                   )',
                  array(
                     ':tag'   => $tag,
                     ':color' => $color,
+                 	':username' => $_SESSION['username']	 
                  ));
         }
     }
@@ -74,7 +78,11 @@ class Tags extends Database {
         return \F3::get('db')->exec('SELECT 
                     tag, color
                    FROM tags 
-                   ORDER BY LOWER(tag);');
+        			where username=:username
+                   ORDER BY LOWER(tag);',
+            array(
+        	':username' => $_SESSION['username']
+        ));
     }
     
     
@@ -100,8 +108,10 @@ class Tags extends Database {
      * @return boolean true if color is used by an tag
      */
     private function isColorUsed($color) {
-        $res = \F3::get('db')->exec('SELECT COUNT(*) AS amount FROM tags WHERE color=:color',
-                    array(':color' => $color));
+        $res = \F3::get('db')->exec('SELECT COUNT(*) AS amount FROM tags WHERE color=:color AND username=:username',
+                    array(':color' => $color,
+                    		':username' => $_SESSION['username']
+        ));
         return $res[0]['amount']>0;
     }
     
@@ -112,8 +122,10 @@ class Tags extends Database {
      * @return boolean true if color is used by an tag
      */
     public function hasTag($tag) {
-        $res = \F3::get('db')->exec('SELECT COUNT(*) AS amount FROM tags WHERE tag=:tag',
-                    array(':tag' => $tag));
+        $res = \F3::get('db')->exec('SELECT COUNT(*) AS amount FROM tags WHERE tag=:tag AND username=:username',
+                    array(':tag' => $tag,
+                    ':username' => $_SESSION['username']           		
+        ));
         return $res[0]['amount']>0;
     }
     
@@ -125,7 +137,9 @@ class Tags extends Database {
      * @param string $tag
      */
     public function delete($tag) {
-        \F3::get('db')->exec('DELETE FROM tags WHERE tag=:tag',
-                    array(':tag' => $tag));
+        \F3::get('db')->exec('DELETE FROM tags WHERE tag=:tag AND username=:username',
+        		array(':tag' => $tag,
+        			':username' => $_SESSION['username']
+                 ));
     }
 }

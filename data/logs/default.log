@@ -222,3 +222,95 @@
 07-28-13 0:01:42 Debug start insertion of new item "抗美援朝战争打出了中国的国威军威打出了中国60余年的和平时期"
 07-28-13 0:01:42 Debug item content sanitized
 07-28-13 0:01:42 Debug icon generated: http://blog.sina.com.cn/favicon.ico
+07-28-13 0:04:37 Debug ---
+07-28-13 0:04:37 Debug start fetching source "aaaa (id: 3)  username:zhenhua
+07-28-13 0:04:37 Debug spout successfully loaded: spouts\rss\feed
+07-28-13 0:04:37 Debug fetch content
+07-28-13 0:04:37 Debug minimum date: 2013-06-28 00:04:37
+07-28-13 0:04:37 Debug start item fetching
+07-28-13 0:04:37 Debug start insertion of new item "抗美援朝战争打出了中国的国威军威打出了中国60余年的和平时期"
+07-28-13 0:04:37 Debug item content sanitized
+07-28-13 0:04:37 Debug icon generated: http://blog.sina.com.cn/favicon.ico
+07-28-13 0:04:54 Debug ---
+07-28-13 0:04:54 Debug start fetching source "aaaa (id: 3)  username:zhenhua
+07-28-13 0:04:54 Debug spout successfully loaded: spouts\rss\feed
+07-28-13 0:04:54 Debug fetch content
+07-28-13 0:04:54 Debug minimum date: 2013-06-28 00:04:54
+07-28-13 0:04:54 Debug start item fetching
+07-28-13 0:04:54 Debug start insertion of new item "抗美援朝战争打出了中国的国威军威打出了中国60余年的和平时期"
+07-28-13 0:04:54 Debug item content sanitized
+07-28-13 0:04:54 Debug icon generated: http://blog.sina.com.cn/favicon.ico
+07-28-13 9:43:02 Debug ---
+07-28-13 9:43:02 Debug start fetching source "aaaa (id: 3)  username:zhenhua
+07-28-13 9:43:02 Debug spout successfully loaded: spouts\rss\feed
+07-28-13 9:43:02 Debug fetch content
+07-28-13 9:43:02 Debug minimum date: 2013-06-28 09:43:02
+07-28-13 9:43:02 Debug start item fetching
+07-28-13 9:43:02 Debug start insertion of new item "抗美援朝战争打出了中国的国威军威打出了中国60余年的和平时期"
+07-28-13 9:43:02 Debug item content sanitized
+07-28-13 9:43:03 Debug icon generated: http://blog.sina.com.cn/favicon.ico
+07-28-13 10:04:02 Debug ---
+07-28-13 10:04:02 Debug start fetching source "aaaa (id: 3)  username:zhenhua
+07-28-13 10:04:02 Debug spout successfully loaded: spouts\rss\feed
+07-28-13 10:04:02 Debug fetch content
+07-28-13 10:04:02 Debug minimum date: 2013-06-28 10:04:02
+07-28-13 10:04:02 Debug start item fetching
+07-28-13 10:04:02 Debug start insertion of new item "抗美援朝战争打出了中国的国威军威打出了中国60余年的和平时期"
+07-28-13 10:04:02 Debug item content sanitized
+07-28-13 10:04:03 Debug icon generated: http://blog.sina.com.cn/favicon.ico
+07-28-13 10:04:03 Debug item inserted
+07-28-13 10:04:03 Debug Memory usage: 10753416
+07-28-13 10:04:03 Debug Memory peak usage: 11015168
+07-28-13 10:04:03 Debug start insertion of new item "美、日2012军力评估报告（民间版）访谈实录"
+07-28-13 10:04:03 Debug item content sanitized
+07-28-13 10:04:03 Debug use last icon: http://blog.sina.com.cn/favicon.ico
+07-28-13 10:04:03 Debug item inserted
+07-28-13 10:04:03 Debug Memory usage: 10821848
+07-28-13 10:04:03 Debug Memory peak usage: 11294448
+07-28-13 10:04:03 Debug start insertion of new item "安倍晋三正在把中日关系推向深渊"
+07-28-13 10:04:03 Debug item content sanitized
+07-28-13 10:04:03 Debug use last icon: http://blog.sina.com.cn/favicon.ico
+07-28-13 10:04:03 Debug item inserted
+07-28-13 10:04:03 Debug Memory usage: 10819240
+07-28-13 10:04:03 Debug Memory peak usage: 11294448
+07-28-13 10:04:03 Debug start insertion of new item "两岸军人应抛弃前嫌，共卫“祖权”"
+07-28-13 10:04:03 Debug item content sanitized
+07-28-13 10:04:03 Debug use last icon: http://blog.sina.com.cn/favicon.ico
+07-28-13 10:04:03 Debug item inserted
+07-28-13 10:04:03 Debug Memory usage: 10837920
+07-28-13 10:04:03 Debug Memory peak usage: 11294448
+07-28-13 10:04:03 Debug start insertion of new item "榜样的力量是无穷的"
+07-28-13 10:04:03 Debug item content sanitized
+07-28-13 10:04:03 Debug use last icon: http://blog.sina.com.cn/favicon.ico
+07-28-13 10:04:03 Debug item inserted
+07-28-13 10:04:03 Debug Memory usage: 10854968
+07-28-13 10:04:03 Debug Memory peak usage: 11294448
+07-28-13 10:04:03 Debug start insertion of new item "转凤凰网采访《罗援解读中国鹰》"
+07-28-13 10:04:03 Debug item content sanitized
+07-28-13 10:04:03 Debug use last icon: http://blog.sina.com.cn/favicon.ico
+07-28-13 10:04:03 Debug item inserted
+07-28-13 10:04:03 Debug Memory usage: 10971536
+07-28-13 10:04:03 Debug Memory peak usage: 11641072
+07-28-13 10:04:03 Debug start insertion of new item "[转载]热烈庆祝中国共产党建党九十二周年！"
+07-28-13 10:04:03 Debug item content sanitized
+07-28-13 10:04:03 Debug use last icon: http://blog.sina.com.cn/favicon.ico
+07-28-13 10:04:03 Debug item inserted
+07-28-13 10:04:03 Debug Memory usage: 10936864
+07-28-13 10:04:03 Debug Memory peak usage: 11641072
+07-28-13 10:04:03 Debug start insertion of new item "警惕日本重蹈军国主义覆辙"
+07-28-13 10:04:03 Debug item content sanitized
+07-28-13 10:04:03 Debug use last icon: http://blog.sina.com.cn/favicon.ico
+07-28-13 10:04:03 Debug item inserted
+07-28-13 10:04:03 Debug Memory usage: 11014832
+07-28-13 10:04:03 Debug Memory peak usage: 11641072
+07-28-13 10:04:03 Debug item "中国绝不会接受菲律宾以任何形式非法侵占仁爱礁" (2013-06-22 09:43:11) older than 30 days
+07-28-13 10:04:03 Debug item "为构建中美新型大国关系增砖添瓦" (2013-06-17 13:10:08) older than 30 days
+07-28-13 10:04:03 Debug destroy spout object
+07-28-13 10:04:03 Debug cleanup orphaned and old items
+07-28-13 10:04:03 Debug cleanup orphaned and old items finished
+07-28-13 10:04:03 Debug delete orphaned thumbnails
+07-28-13 10:04:03 Debug delete orphaned thumbnails finished
+07-28-13 10:04:03 Debug delete orphaned icons
+07-28-13 10:04:03 Debug delete orphaned icons finished
+07-28-13 10:04:03 Debug optimize database
+07-28-13 10:04:03 Debug optimize database finished

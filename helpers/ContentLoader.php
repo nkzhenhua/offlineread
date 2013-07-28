@@ -128,6 +128,7 @@ class ContentLoader {
 
             $icon = $item->getIcon();
             $newItem = array(
+            		'username'     => $source['username'],
                     'title'        => $title,
                     'content'      => $content,
                     'source'       => $source['id'],
@@ -135,8 +136,7 @@ class ContentLoader {
                     'uid'          => $item->getId(),
                     'thumbnail'    => $item->getThumbnail(),
                     'icon'         => $icon!==false ? $icon : "",
-                    'link'         => htmLawed($item->getLink(), array("deny_attribute" => "*", "elements" => "-*")),
-            		'username'     => $source['username']
+                    'link'         => htmLawed($item->getLink(), array("deny_attribute" => "*", "elements" => "-*"))      	
             );
             
             // save thumbnail

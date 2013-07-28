@@ -92,6 +92,7 @@ class Items extends Database {
             return;
         
         \F3::get('db')->exec('INSERT INTO items (
+        		    username,
                     datetime, 
                     title, 
                     content, 
@@ -101,9 +102,9 @@ class Items extends Database {
                     thumbnail, 
                     icon, 
                     uid,
-                    link,
-        			username
+                    link
                   ) VALUES (
+        			:username,
                     :datetime, 
                     :title, 
                     :content, 
@@ -113,10 +114,10 @@ class Items extends Database {
                     :thumbnail, 
                     :icon, 
                     :uid,
-                    :link
-        			:username
+                    :link       		
                   )',
                  array(
+                 	':username'    => $values['username'],
                     ':datetime'    => $values['datetime'],
                     ':title'       => $values['title'],
                     ':content'     => $values['content'],
@@ -126,8 +127,7 @@ class Items extends Database {
                     ':starred'     => 0,
                     ':source'      => $values['source'],
                     ':uid'         => $values['uid'],
-                    ':link'        => $values['link'],
-                 	':username' => $values['username']
+                    ':link'        => $values['link']  
                  ));
     }
     

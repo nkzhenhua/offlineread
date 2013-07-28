@@ -108,7 +108,8 @@ class Database {
                 \F3::get('db')->exec('
                     CREATE TABLE tags (
                         tag         TEXT NOT NULL,
-                        color       VARCHAR(7) NOT NULL
+                        color       VARCHAR(7) NOT NULL,
+                		username 	char(64) NOT NULL
                     ) DEFAULT CHARSET=utf8;
                 ');
             }            
