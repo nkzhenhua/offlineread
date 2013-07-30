@@ -233,6 +233,15 @@ class Index extends BaseController {
         echo "finished";
     }
     
+    /**
+     * gen epub book for user
+     */  
+    public function genEpub(){
+    	echo "start gen epub file";
+    	$epub = new \helpers\EPubCreater();
+    	$epub->crate_book($_SESSION['username'], "hehehehe", 'test');
+    	echo "finished";
+    }
     
     /**
      * load items

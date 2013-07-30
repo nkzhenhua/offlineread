@@ -314,3 +314,330 @@
 07-28-13 10:04:03 Debug delete orphaned icons finished
 07-28-13 10:04:03 Debug optimize database
 07-28-13 10:04:03 Debug optimize database finished
+07-28-13 11:04:29 Debug ---
+07-28-13 11:04:29 Debug start fetching source "aaaa (id: 4)  username:zzh
+07-28-13 11:04:29 Debug spout successfully loaded: spouts\rss\feed
+07-28-13 11:04:29 Debug fetch content
+07-28-13 11:04:32 Debug minimum date: 2013-06-28 11:04:32
+07-28-13 11:04:32 Debug start item fetching
+07-28-13 11:04:32 Debug item "中国绝不会接受菲律宾以任何形式非法侵占仁爱礁" (2013-06-22 09:43:11) older than 30 days
+07-28-13 11:04:32 Debug item "为构建中美新型大国关系增砖添瓦" (2013-06-17 13:10:08) older than 30 days
+07-28-13 11:04:32 Debug destroy spout object
+07-28-13 11:04:32 Debug ---
+07-28-13 11:04:32 Debug start fetching source "aaaa (id: 3)  username:zhenhua
+07-28-13 11:04:32 Debug spout successfully loaded: spouts\rss\feed
+07-28-13 11:04:32 Debug fetch content
+07-28-13 11:04:32 Debug minimum date: 2013-06-28 11:04:32
+07-28-13 11:04:32 Debug start item fetching
+07-28-13 11:04:32 Debug item "中国绝不会接受菲律宾以任何形式非法侵占仁爱礁" (2013-06-22 09:43:11) older than 30 days
+07-28-13 11:04:32 Debug item "为构建中美新型大国关系增砖添瓦" (2013-06-17 13:10:08) older than 30 days
+07-28-13 11:04:32 Debug destroy spout object
+07-28-13 11:04:32 Debug cleanup orphaned and old items
+07-28-13 11:04:32 Debug cleanup orphaned and old items finished
+07-28-13 11:04:32 Debug delete orphaned thumbnails
+07-28-13 11:04:32 Debug delete orphaned thumbnails finished
+07-28-13 11:04:32 Debug delete orphaned icons
+07-28-13 11:04:32 Debug delete orphaned icons finished
+07-28-13 11:04:32 Debug optimize database
+07-28-13 11:04:32 Debug optimize database finished
+07-28-13 11:09:37 Debug ---
+07-28-13 11:09:37 Debug start fetching source "aaaa (id: 3)  username:zhenhua
+07-28-13 11:09:37 Debug spout successfully loaded: spouts\rss\feed
+07-28-13 11:09:37 Debug fetch content
+07-28-13 11:09:37 Debug minimum date: 2013-06-28 11:09:37
+07-28-13 11:09:37 Debug start item fetching
+07-28-13 11:09:37 Debug item "中国绝不会接受菲律宾以任何形式非法侵占仁爱礁" (2013-06-22 09:43:11) older than 30 days
+07-28-13 11:09:37 Debug item "为构建中美新型大国关系增砖添瓦" (2013-06-17 13:10:08) older than 30 days
+07-28-13 11:09:37 Debug destroy spout object
+07-28-13 11:09:37 Debug ---
+07-28-13 11:09:37 Debug start fetching source "aaaa (id: 4)  username:zzh
+07-28-13 11:09:37 Debug spout successfully loaded: spouts\rss\feed
+07-28-13 11:09:37 Debug fetch content
+07-28-13 11:09:37 Debug minimum date: 2013-06-28 11:09:37
+07-28-13 11:09:37 Debug start item fetching
+07-28-13 11:09:37 Debug item "中国绝不会接受菲律宾以任何形式非法侵占仁爱礁" (2013-06-22 09:43:11) older than 30 days
+07-28-13 11:09:37 Debug item "为构建中美新型大国关系增砖添瓦" (2013-06-17 13:10:08) older than 30 days
+07-28-13 11:09:37 Debug destroy spout object
+07-28-13 11:09:37 Debug cleanup orphaned and old items
+07-28-13 11:09:37 Debug cleanup orphaned and old items finished
+07-28-13 11:09:37 Debug delete orphaned thumbnails
+07-28-13 11:09:37 Debug delete orphaned thumbnails finished
+07-28-13 11:09:37 Debug delete orphaned icons
+07-28-13 11:09:37 Debug delete orphaned icons finished
+07-28-13 11:09:37 Debug optimize database
+07-28-13 11:09:37 Debug optimize database finished
+07-28-13 11:26:23 Debug ---
+07-28-13 11:26:23 Debug start fetching source "aaaa (id: 3)  username:zhenhua
+07-28-13 11:26:23 Debug spout successfully loaded: spouts\rss\feed
+07-28-13 11:26:23 Debug fetch content
+07-28-13 11:26:23 Debug minimum date: 2013-06-28 11:26:23
+07-28-13 11:26:23 Debug start item fetching
+07-28-13 11:26:23 Debug item "中国绝不会接受菲律宾以任何形式非法侵占仁爱礁" (2013-06-22 09:43:11) older than 30 days
+07-28-13 11:26:23 Debug item "为构建中美新型大国关系增砖添瓦" (2013-06-17 13:10:08) older than 30 days
+07-28-13 11:26:23 Debug destroy spout object
+07-28-13 11:26:23 Debug ---
+07-28-13 11:26:23 Debug start fetching source "aaaa (id: 4)  username:zzh
+07-28-13 11:26:23 Debug spout successfully loaded: spouts\rss\feed
+07-28-13 11:26:23 Debug fetch content
+07-28-13 11:26:23 Debug minimum date: 2013-06-28 11:26:23
+07-28-13 11:26:23 Debug start item fetching
+07-28-13 11:26:23 Debug item "中国绝不会接受菲律宾以任何形式非法侵占仁爱礁" (2013-06-22 09:43:11) older than 30 days
+07-28-13 11:26:23 Debug item "为构建中美新型大国关系增砖添瓦" (2013-06-17 13:10:08) older than 30 days
+07-28-13 11:26:23 Debug destroy spout object
+07-28-13 11:26:23 Debug cleanup orphaned and old items
+07-28-13 11:26:23 Debug cleanup orphaned and old items finished
+07-28-13 11:26:23 Debug delete orphaned thumbnails
+07-28-13 11:26:23 Debug delete orphaned thumbnails finished
+07-28-13 11:26:23 Debug delete orphaned icons
+07-28-13 11:26:23 Debug delete orphaned icons finished
+07-28-13 11:26:23 Debug optimize database
+07-28-13 11:26:23 Debug optimize database finished
+07-28-13 11:35:19 Debug ---
+07-28-13 11:35:19 Debug start fetching source "aaaa (id: 3)  username:zhenhua
+07-28-13 11:35:19 Debug spout successfully loaded: spouts\rss\feed
+07-28-13 11:35:19 Debug fetch content
+07-28-13 11:35:20 Debug minimum date: 2013-06-28 11:35:20
+07-28-13 11:35:20 Debug start item fetching
+07-28-13 11:36:05 Debug ---
+07-28-13 11:36:05 Debug start fetching source "aaaa (id: 3)  username:zhenhua
+07-28-13 11:36:05 Debug spout successfully loaded: spouts\rss\feed
+07-28-13 11:36:05 Debug fetch content
+07-28-13 11:36:05 Debug minimum date: 2013-06-28 11:36:05
+07-28-13 11:36:05 Debug start item fetching
+07-28-13 11:36:05 Debug item :idhttp://blog.sina.com.cn/s/blog_549c1d970101dyye.html
+07-28-13 11:36:05 Debug item :idhttp://blog.sina.com.cn/s/blog_549c1d970101dtb9.html
+07-28-13 11:36:05 Debug item :idhttp://blog.sina.com.cn/s/blog_549c1d970101drz0.html
+07-28-13 11:36:05 Debug item :idhttp://blog.sina.com.cn/s/blog_549c1d970101dr5c.html
+07-28-13 11:36:05 Debug item :idhttp://blog.sina.com.cn/s/blog_549c1d970101dlko.html
+07-28-13 11:36:05 Debug item :idhttp://blog.sina.com.cn/s/blog_549c1d970101dhv1.html
+07-28-13 11:36:05 Debug item :idhttp://blog.sina.com.cn/s/blog_549c1d970101dfon.html
+07-28-13 11:36:05 Debug item :idhttp://blog.sina.com.cn/s/blog_549c1d970101decr.html
+07-28-13 11:36:05 Debug item :idhttp://blog.sina.com.cn/s/blog_549c1d970101d9o6.html
+07-28-13 11:36:05 Debug item "中国绝不会接受菲律宾以任何形式非法侵占仁爱礁" (2013-06-22 09:43:11) older than 30 days
+07-28-13 11:36:05 Debug item :idhttp://blog.sina.com.cn/s/blog_549c1d970101d6gl.html
+07-28-13 11:36:05 Debug item "为构建中美新型大国关系增砖添瓦" (2013-06-17 13:10:08) older than 30 days
+07-28-13 11:36:05 Debug destroy spout object
+07-28-13 11:36:05 Debug ---
+07-28-13 11:36:05 Debug start fetching source "aaaa (id: 4)  username:zzh
+07-28-13 11:36:05 Debug spout successfully loaded: spouts\rss\feed
+07-28-13 11:36:05 Debug fetch content
+07-28-13 11:36:05 Debug minimum date: 2013-06-28 11:36:05
+07-28-13 11:36:05 Debug start item fetching
+07-28-13 11:36:05 Debug item :idhttp://blog.sina.com.cn/s/blog_549c1d970101dyye.html
+07-28-13 11:36:05 Debug item :idhttp://blog.sina.com.cn/s/blog_549c1d970101dtb9.html
+07-28-13 11:36:05 Debug item :idhttp://blog.sina.com.cn/s/blog_549c1d970101drz0.html
+07-28-13 11:36:05 Debug item :idhttp://blog.sina.com.cn/s/blog_549c1d970101dr5c.html
+07-28-13 11:36:05 Debug item :idhttp://blog.sina.com.cn/s/blog_549c1d970101dlko.html
+07-28-13 11:36:05 Debug item :idhttp://blog.sina.com.cn/s/blog_549c1d970101dhv1.html
+07-28-13 11:36:05 Debug item :idhttp://blog.sina.com.cn/s/blog_549c1d970101dfon.html
+07-28-13 11:36:05 Debug item :idhttp://blog.sina.com.cn/s/blog_549c1d970101decr.html
+07-28-13 11:36:05 Debug item :idhttp://blog.sina.com.cn/s/blog_549c1d970101d9o6.html
+07-28-13 11:36:05 Debug item "中国绝不会接受菲律宾以任何形式非法侵占仁爱礁" (2013-06-22 09:43:11) older than 30 days
+07-28-13 11:36:05 Debug item :idhttp://blog.sina.com.cn/s/blog_549c1d970101d6gl.html
+07-28-13 11:36:05 Debug item "为构建中美新型大国关系增砖添瓦" (2013-06-17 13:10:08) older than 30 days
+07-28-13 11:36:05 Debug destroy spout object
+07-28-13 11:36:05 Debug cleanup orphaned and old items
+07-28-13 11:36:05 Debug cleanup orphaned and old items finished
+07-28-13 11:36:05 Debug delete orphaned thumbnails
+07-28-13 11:36:05 Debug delete orphaned thumbnails finished
+07-28-13 11:36:05 Debug delete orphaned icons
+07-28-13 11:36:05 Debug delete orphaned icons finished
+07-28-13 11:36:05 Debug optimize database
+07-28-13 11:36:05 Debug optimize database finished
+07-28-13 11:42:49 Debug ---
+07-28-13 11:42:49 Debug start fetching source "aaaa (id: 3)  username:zhenhua
+07-28-13 11:42:49 Debug spout successfully loaded: spouts\rss\feed
+07-28-13 11:42:49 Debug fetch content
+07-28-13 11:42:49 Debug minimum date: 2013-06-28 11:42:49
+07-28-13 11:42:49 Debug start item fetching
+07-28-13 11:42:49 Debug username:zhenhua item id:http://blog.sina.com.cn/s/blog_549c1d970101dyye.html
+07-28-13 11:42:49 Debug username:zhenhua item id:http://blog.sina.com.cn/s/blog_549c1d970101dtb9.html
+07-28-13 11:42:49 Debug username:zhenhua item id:http://blog.sina.com.cn/s/blog_549c1d970101drz0.html
+07-28-13 11:42:49 Debug username:zhenhua item id:http://blog.sina.com.cn/s/blog_549c1d970101dr5c.html
+07-28-13 11:42:49 Debug username:zhenhua item id:http://blog.sina.com.cn/s/blog_549c1d970101dlko.html
+07-28-13 11:42:49 Debug username:zhenhua item id:http://blog.sina.com.cn/s/blog_549c1d970101dhv1.html
+07-28-13 11:42:49 Debug username:zhenhua item id:http://blog.sina.com.cn/s/blog_549c1d970101dfon.html
+07-28-13 11:42:49 Debug username:zhenhua item id:http://blog.sina.com.cn/s/blog_549c1d970101decr.html
+07-28-13 11:42:49 Debug username:zhenhua item id:http://blog.sina.com.cn/s/blog_549c1d970101d9o6.html
+07-28-13 11:42:49 Debug item "中国绝不会接受菲律宾以任何形式非法侵占仁爱礁" (2013-06-22 09:43:11) older than 30 days
+07-28-13 11:42:49 Debug username:zhenhua item id:http://blog.sina.com.cn/s/blog_549c1d970101d6gl.html
+07-28-13 11:42:49 Debug item "为构建中美新型大国关系增砖添瓦" (2013-06-17 13:10:08) older than 30 days
+07-28-13 11:42:49 Debug destroy spout object
+07-28-13 11:42:49 Debug ---
+07-28-13 11:42:49 Debug start fetching source "aaaa (id: 4)  username:zzh
+07-28-13 11:42:49 Debug spout successfully loaded: spouts\rss\feed
+07-28-13 11:42:49 Debug fetch content
+07-28-13 11:42:49 Debug minimum date: 2013-06-28 11:42:49
+07-28-13 11:42:49 Debug start item fetching
+07-28-13 11:42:49 Debug username:zzh item id:http://blog.sina.com.cn/s/blog_549c1d970101dyye.html
+07-28-13 11:42:49 Debug start insertion of new item "抗美援朝战争打出了中国的国威军威打出了中国60余年的和平时期"
+07-28-13 11:42:49 Debug item content sanitized
+07-28-13 11:42:56 Debug icon generated: http://blog.sina.com.cn/favicon.ico
+07-28-13 11:42:56 Debug ---
+07-28-13 11:42:56 Debug start fetching source "aaaa (id: 4)  username:zzh
+07-28-13 11:42:56 Debug spout successfully loaded: spouts\rss\feed
+07-28-13 11:42:56 Debug fetch content
+07-28-13 11:42:56 Debug minimum date: 2013-06-28 11:42:56
+07-28-13 11:42:56 Debug start item fetching
+07-28-13 11:42:56 Debug username:zzh item id:http://blog.sina.com.cn/s/blog_549c1d970101dyye.html
+07-28-13 11:42:56 Debug start insertion of new item "抗美援朝战争打出了中国的国威军威打出了中国60余年的和平时期"
+07-28-13 11:42:56 Debug item content sanitized
+07-28-13 11:43:04 Debug icon generated: http://blog.sina.com.cn/favicon.ico
+07-28-13 11:45:22 Debug ---
+07-28-13 11:45:22 Debug start fetching source "aaaa (id: 4)  username:zzh
+07-28-13 11:45:22 Debug spout successfully loaded: spouts\rss\feed
+07-28-13 11:45:22 Debug fetch content
+07-28-13 11:45:22 Debug minimum date: 2013-06-28 11:45:22
+07-28-13 11:45:22 Debug start item fetching
+07-28-13 11:45:22 Debug username:zzh item id:http://blog.sina.com.cn/s/blog_549c1d970101dyye.html
+07-28-13 11:45:22 Debug start insertion of new item "抗美援朝战争打出了中国的国威军威打出了中国60余年的和平时期"
+07-28-13 11:45:22 Debug item content sanitized
+07-28-13 11:45:30 Debug icon generated: http://blog.sina.com.cn/favicon.ico
+07-28-13 11:45:30 Debug item inserted
+07-28-13 11:45:30 Debug Memory usage: 10759528
+07-28-13 11:45:30 Debug Memory peak usage: 11021280
+07-28-13 11:45:30 Debug username:zzh item id:http://blog.sina.com.cn/s/blog_549c1d970101dtb9.html
+07-28-13 11:45:30 Debug start insertion of new item "美、日2012军力评估报告（民间版）访谈实录"
+07-28-13 11:45:30 Debug item content sanitized
+07-28-13 11:45:30 Debug use last icon: http://blog.sina.com.cn/favicon.ico
+07-28-13 11:45:30 Debug item inserted
+07-28-13 11:45:30 Debug Memory usage: 10828024
+07-28-13 11:45:30 Debug Memory peak usage: 11299928
+07-28-13 11:45:30 Debug username:zzh item id:http://blog.sina.com.cn/s/blog_549c1d970101drz0.html
+07-28-13 11:45:30 Debug start insertion of new item "安倍晋三正在把中日关系推向深渊"
+07-28-13 11:45:30 Debug item content sanitized
+07-28-13 11:45:30 Debug use last icon: http://blog.sina.com.cn/favicon.ico
+07-28-13 11:45:30 Debug item inserted
+07-28-13 11:45:30 Debug Memory usage: 10825424
+07-28-13 11:45:30 Debug Memory peak usage: 11299928
+07-28-13 11:45:30 Debug username:zzh item id:http://blog.sina.com.cn/s/blog_549c1d970101dr5c.html
+07-28-13 11:45:30 Debug start insertion of new item "两岸军人应抛弃前嫌，共卫“祖权”"
+07-28-13 11:45:30 Debug item content sanitized
+07-28-13 11:45:30 Debug use last icon: http://blog.sina.com.cn/favicon.ico
+07-28-13 11:45:30 Debug item inserted
+07-28-13 11:45:30 Debug Memory usage: 10844136
+07-28-13 11:45:30 Debug Memory peak usage: 11299928
+07-28-13 11:45:30 Debug username:zzh item id:http://blog.sina.com.cn/s/blog_549c1d970101dlko.html
+07-28-13 11:45:30 Debug start insertion of new item "榜样的力量是无穷的"
+07-28-13 11:45:30 Debug item content sanitized
+07-28-13 11:45:30 Debug use last icon: http://blog.sina.com.cn/favicon.ico
+07-28-13 11:45:30 Debug item inserted
+07-28-13 11:45:30 Debug Memory usage: 10861216
+07-28-13 11:45:30 Debug Memory peak usage: 11299928
+07-28-13 11:45:30 Debug username:zzh item id:http://blog.sina.com.cn/s/blog_549c1d970101dhv1.html
+07-28-13 11:45:30 Debug start insertion of new item "转凤凰网采访《罗援解读中国鹰》"
+07-28-13 11:45:30 Debug item content sanitized
+07-28-13 11:45:30 Debug use last icon: http://blog.sina.com.cn/favicon.ico
+07-28-13 11:45:30 Debug item inserted
+07-28-13 11:45:30 Debug Memory usage: 10977816
+07-28-13 11:45:30 Debug Memory peak usage: 11647136
+07-28-13 11:45:30 Debug username:zzh item id:http://blog.sina.com.cn/s/blog_549c1d970101dfon.html
+07-28-13 11:45:30 Debug start insertion of new item "[转载]热烈庆祝中国共产党建党九十二周年！"
+07-28-13 11:45:30 Debug item content sanitized
+07-28-13 11:45:30 Debug use last icon: http://blog.sina.com.cn/favicon.ico
+07-28-13 11:45:30 Debug item inserted
+07-28-13 11:45:30 Debug Memory usage: 10943184
+07-28-13 11:45:30 Debug Memory peak usage: 11647136
+07-28-13 11:45:30 Debug username:zzh item id:http://blog.sina.com.cn/s/blog_549c1d970101decr.html
+07-28-13 11:45:30 Debug start insertion of new item "警惕日本重蹈军国主义覆辙"
+07-28-13 11:45:30 Debug item content sanitized
+07-28-13 11:45:30 Debug use last icon: http://blog.sina.com.cn/favicon.ico
+07-28-13 11:45:30 Debug item inserted
+07-28-13 11:45:30 Debug Memory usage: 11021152
+07-28-13 11:45:30 Debug Memory peak usage: 11647136
+07-28-13 11:45:30 Debug username:zzh item id:http://blog.sina.com.cn/s/blog_549c1d970101d9o6.html
+07-28-13 11:45:30 Debug item "中国绝不会接受菲律宾以任何形式非法侵占仁爱礁" (2013-06-22 09:43:11) older than 30 days
+07-28-13 11:45:30 Debug username:zzh item id:http://blog.sina.com.cn/s/blog_549c1d970101d6gl.html
+07-28-13 11:45:30 Debug item "为构建中美新型大国关系增砖添瓦" (2013-06-17 13:10:08) older than 30 days
+07-28-13 11:45:30 Debug destroy spout object
+07-28-13 11:45:30 Debug ---
+07-28-13 11:45:30 Debug start fetching source "aaaa (id: 3)  username:zhenhua
+07-28-13 11:45:30 Debug spout successfully loaded: spouts\rss\feed
+07-28-13 11:45:30 Debug fetch content
+07-28-13 11:45:30 Debug minimum date: 2013-06-28 11:45:30
+07-28-13 11:45:30 Debug start item fetching
+07-28-13 11:45:30 Debug username:zhenhua item id:http://blog.sina.com.cn/s/blog_549c1d970101dyye.html
+07-28-13 11:45:30 Debug username:zhenhua item id:http://blog.sina.com.cn/s/blog_549c1d970101dtb9.html
+07-28-13 11:45:30 Debug username:zhenhua item id:http://blog.sina.com.cn/s/blog_549c1d970101drz0.html
+07-28-13 11:45:30 Debug username:zhenhua item id:http://blog.sina.com.cn/s/blog_549c1d970101dr5c.html
+07-28-13 11:45:30 Debug username:zhenhua item id:http://blog.sina.com.cn/s/blog_549c1d970101dlko.html
+07-28-13 11:45:30 Debug username:zhenhua item id:http://blog.sina.com.cn/s/blog_549c1d970101dhv1.html
+07-28-13 11:45:30 Debug username:zhenhua item id:http://blog.sina.com.cn/s/blog_549c1d970101dfon.html
+07-28-13 11:45:30 Debug username:zhenhua item id:http://blog.sina.com.cn/s/blog_549c1d970101decr.html
+07-28-13 11:45:30 Debug username:zhenhua item id:http://blog.sina.com.cn/s/blog_549c1d970101d9o6.html
+07-28-13 11:45:30 Debug item "中国绝不会接受菲律宾以任何形式非法侵占仁爱礁" (2013-06-22 09:43:11) older than 30 days
+07-28-13 11:45:30 Debug username:zhenhua item id:http://blog.sina.com.cn/s/blog_549c1d970101d6gl.html
+07-28-13 11:45:30 Debug item "为构建中美新型大国关系增砖添瓦" (2013-06-17 13:10:08) older than 30 days
+07-28-13 11:45:30 Debug destroy spout object
+07-28-13 11:45:30 Debug cleanup orphaned and old items
+07-28-13 11:45:30 Debug cleanup orphaned and old items finished
+07-28-13 11:45:30 Debug delete orphaned thumbnails
+07-28-13 11:45:30 Debug delete orphaned thumbnails finished
+07-28-13 11:45:30 Debug delete orphaned icons
+07-28-13 11:45:30 Debug delete orphaned icons finished
+07-28-13 11:45:30 Debug optimize database
+07-28-13 11:45:30 Debug optimize database finished
+07-29-13 23:47:27 Debug ---
+07-29-13 23:47:27 Debug start fetching source "aaaa (id: 3)  username:zhenhua
+07-29-13 23:47:27 Debug spout successfully loaded: spouts\rss\feed
+07-29-13 23:47:27 Debug fetch content
+07-29-13 23:47:28 Debug minimum date: 2013-06-29 23:47:28
+07-29-13 23:47:28 Debug start item fetching
+07-29-13 23:47:28 Debug username:zhenhua item id:http://blog.sina.com.cn/s/blog_549c1d970101dyye.html
+07-29-13 23:47:28 Debug username:zhenhua item id:http://blog.sina.com.cn/s/blog_549c1d970101dtb9.html
+07-29-13 23:47:28 Debug username:zhenhua item id:http://blog.sina.com.cn/s/blog_549c1d970101drz0.html
+07-29-13 23:47:28 Debug username:zhenhua item id:http://blog.sina.com.cn/s/blog_549c1d970101dr5c.html
+07-29-13 23:47:28 Debug username:zhenhua item id:http://blog.sina.com.cn/s/blog_549c1d970101dlko.html
+07-29-13 23:47:28 Debug username:zhenhua item id:http://blog.sina.com.cn/s/blog_549c1d970101dhv1.html
+07-29-13 23:47:28 Debug username:zhenhua item id:http://blog.sina.com.cn/s/blog_549c1d970101dfon.html
+07-29-13 23:47:28 Debug username:zhenhua item id:http://blog.sina.com.cn/s/blog_549c1d970101decr.html
+07-29-13 23:47:28 Debug username:zhenhua item id:http://blog.sina.com.cn/s/blog_549c1d970101d9o6.html
+07-29-13 23:47:28 Debug item "中国绝不会接受菲律宾以任何形式非法侵占仁爱礁" (2013-06-22 09:43:11) older than 30 days
+07-29-13 23:47:28 Debug username:zhenhua item id:http://blog.sina.com.cn/s/blog_549c1d970101d6gl.html
+07-29-13 23:47:28 Debug item "为构建中美新型大国关系增砖添瓦" (2013-06-17 13:10:08) older than 30 days
+07-29-13 23:47:28 Debug destroy spout object
+07-29-13 23:47:28 Debug ---
+07-29-13 23:47:28 Debug start fetching source "aaaa (id: 4)  username:zzh
+07-29-13 23:47:28 Debug spout successfully loaded: spouts\rss\feed
+07-29-13 23:47:28 Debug fetch content
+07-29-13 23:47:28 Debug minimum date: 2013-06-29 23:47:28
+07-29-13 23:47:28 Debug start item fetching
+07-29-13 23:47:28 Debug username:zzh item id:http://blog.sina.com.cn/s/blog_549c1d970101dyye.html
+07-29-13 23:47:28 Debug username:zzh item id:http://blog.sina.com.cn/s/blog_549c1d970101dtb9.html
+07-29-13 23:47:28 Debug username:zzh item id:http://blog.sina.com.cn/s/blog_549c1d970101drz0.html
+07-29-13 23:47:28 Debug username:zzh item id:http://blog.sina.com.cn/s/blog_549c1d970101dr5c.html
+07-29-13 23:47:28 Debug username:zzh item id:http://blog.sina.com.cn/s/blog_549c1d970101dlko.html
+07-29-13 23:47:28 Debug username:zzh item id:http://blog.sina.com.cn/s/blog_549c1d970101dhv1.html
+07-29-13 23:47:28 Debug username:zzh item id:http://blog.sina.com.cn/s/blog_549c1d970101dfon.html
+07-29-13 23:47:28 Debug username:zzh item id:http://blog.sina.com.cn/s/blog_549c1d970101decr.html
+07-29-13 23:47:28 Debug username:zzh item id:http://blog.sina.com.cn/s/blog_549c1d970101d9o6.html
+07-29-13 23:47:28 Debug item "中国绝不会接受菲律宾以任何形式非法侵占仁爱礁" (2013-06-22 09:43:11) older than 30 days
+07-29-13 23:47:28 Debug username:zzh item id:http://blog.sina.com.cn/s/blog_549c1d970101d6gl.html
+07-29-13 23:47:28 Debug item "为构建中美新型大国关系增砖添瓦" (2013-06-17 13:10:08) older than 30 days
+07-29-13 23:47:28 Debug destroy spout object
+07-29-13 23:47:28 Debug cleanup orphaned and old items
+07-29-13 23:47:28 Debug cleanup orphaned and old items finished
+07-29-13 23:47:28 Debug delete orphaned thumbnails
+07-29-13 23:47:28 Debug delete orphaned thumbnails finished
+07-29-13 23:47:28 Debug delete orphaned icons
+07-29-13 23:47:28 Debug delete orphaned icons finished
+07-29-13 23:47:28 Debug optimize database
+07-29-13 23:47:28 Debug optimize database finished
+07-30-13 9:00:38 Error Unimplemented method for mysql: getpasswd
+07-30-13 9:00:38 Error Unimplemented method for mysql: getpasswd
+07-30-13 9:00:50 Error Unimplemented method for mysql: getpasswd
+07-30-13 9:00:50 Error Unimplemented method for mysql: getpasswd
+07-30-13 9:01:14 Error Unimplemented method for mysql: getpasswd
+07-30-13 9:01:14 Error Unimplemented method for mysql: getpasswd
+07-30-13 9:03:41 Error Unimplemented method for mysql: getpasswd
+07-30-13 9:03:41 Error Unimplemented method for mysql: getpasswd
+07-30-13 9:04:19 Error Unimplemented method for mysql: getpasswd
+07-30-13 9:04:19 Error Unimplemented method for mysql: getpasswd
+07-30-13 9:04:54 Error Unimplemented method for mysql: getpasswd
+07-30-13 9:04:54 Error Unimplemented method for mysql: getpasswd
+07-30-13 9:05:44 Error Unimplemented method for mysql: getpasswd
+07-30-13 9:05:44 Error Unimplemented method for mysql: getpasswd
+07-30-13 9:09:17 Error Unimplemented method for mysql: getpasswd
+07-30-13 9:09:17 Error Unimplemented method for mysql: getpasswd
+07-30-13 9:10:03 Error Unimplemented method for mysql: getpasswd
+07-30-13 9:10:03 Error Unimplemented method for mysql: getpasswd

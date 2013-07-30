@@ -1,0 +1,75 @@
+Only in ./.git: branches
+Only in ./.git/objects: info
+Only in ./.git/objects: pack
+Only in ./.git/refs: tags
+diff -r ./controllers/Index.php /Users/zzh/Zend/workspaces/DefaultWorkspace/aaaa/selfoss-2.7/controllers/Index.php
+235a236,244
+>     /**
+>      * gen epub book for user
+>      */  
+>     public function genEpub(){
+>     	echo "start gen epub file";
+>     	$epub = new \helpers\EPubCreater();
+>     	$epub->crate_book($_SESSION['username'], "hehehehe", 'test');
+>     	echo "finished";
+>     }
+diff -r ./data/cache/a6760d4173850e37847e552a6d7f3538.spc /Users/zzh/Zend/workspaces/DefaultWorkspace/aaaa/selfoss-2.7/data/cache/a6760d4173850e37847e552a6d7f3538.spc
+22c22
+<     ";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:1:{s:0:"";a:9:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:15:"罗援的博客";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:34:"http://blog.sina.com.cn/zhenshanhu";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:13:"lastBuildDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Sat, 27 Jul 2013 08:56:50 +0800";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:9:"generator";a:1:{i:0;a:5:{s:4:"data";s:19:"FEEDCREATOR_VERSION";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:8:"language";a:1:{i:0;a:5:{s:4:"data";s:5:"zh-cn";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:9:"copyright";a:1:{i:0;a:5:{s:4:"data";s:52:"Copyright 1996 - 2009 SINA Inc. All Rights Reserved.";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Mon, 29 Jul 2013 22:49:38 +0800";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"item";a:10:{i:0;a:6:{s:4:"data";s:100:"
+---
+>     ";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:1:{s:0:"";a:9:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:15:"罗援的博客";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:34:"http://blog.sina.com.cn/zhenshanhu";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:13:"lastBuildDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Sat, 27 Jul 2013 08:56:50 +0800";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:9:"generator";a:1:{i:0;a:5:{s:4:"data";s:19:"FEEDCREATOR_VERSION";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:8:"language";a:1:{i:0;a:5:{s:4:"data";s:5:"zh-cn";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:9:"copyright";a:1:{i:0;a:5:{s:4:"data";s:52:"Copyright 1996 - 2009 SINA Inc. All Rights Reserved.";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Sun, 28 Jul 2013 10:24:55 +0800";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"item";a:10:{i:0;a:6:{s:4:"data";s:100:"
+455c455
+< <p>&nbsp;</P><br /><img src="http://simg.sinajs.cn/blog7style/images/special/1265.gif">&nbsp;<a href="http://sina.allyes.com/main/adfclick?db=sina&bid=204720,469641,474922&cid=0,0,0&sid=473458&advid=358&camid=37389&show=ignore&url=http://qing.blog.sina.com.cn/tag/%E5%86%99%E7%9C%9F" target="_blank">青春就应该这样绽放</a>&nbsp;&nbsp;<a href="http://sina.allyes.com/main/adfclick?db=sina&bid=204720,469645,474926&cid=0,0,0&sid=473464&advid=358&camid=37389&show=ignore&url=http%3A%2F%2Funion.9173.com%2Fpub%3Fp%3D1%26u%3D1008" target="_blank">游戏测试：三国时期谁是你最好的兄弟！！</a>&nbsp;&nbsp;<a href="http://sina.allyes.com/main/adfclick?db=sina&bid=204720,469646,474927&cid=0,0,0&sid=473465&advid=358&camid=37389&show=ignore&url=http://qing.blog.sina.com.cn/tag/%E6%98%9F%E5%BA%A7" target="_blank">你不得不信的星座秘密</a><img src="http://sina.allyes.com/main/adfclick?db=sina&bid=204720,470173,475454&cid=0,0,0&sid=474001&advid=358&camid=37389&show=ignore&url=http://simg.sinajs.cn/blog7style/images/common/sg_trans.gif?t=9">";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:6:"author";a:1:{i:0;a:5:{s:4:"data";s:6:"罗援";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:8:"comments";a:1:{i:0;a:5:{s:4:"data";s:60:"http://blog.sina.com.cn/s/blog_549c1d970101d6gl.html#comment";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Mon, 17 Jun 2013 13:10:08 +0800";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:52:"http://blog.sina.com.cn/s/blog_549c1d970101d6gl.html";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}}}}}}}}}}}}s:4:"type";i:128;s:7:"headers";a:14:{s:6:"server";s:11:"nginx/1.2.8";s:4:"date";s:29:"Mon, 29 Jul 2013 15:47:30 GMT";s:12:"content-type";s:23:"text/xml; charset=utf-8";s:14:"content-length";s:5:"90505";s:10:"connection";s:10:"keep-alive";s:13:"cache-control";s:8:"no-cache";s:7:"expires";s:29:"Mon, 29 Jul 2013 15:47:29 GMT";s:13:"last-modified";s:31:"Mon, 29 Jul 2013 22:49:38 GMT+8";s:12:"dpool_header";s:11:"10.55.27.47";s:7:"sina-lb";s:44:"amE5MC5oYS5qYTUuYmoubG9hZGJhbGFuY2Uuc2luYQ==";s:7:"sina-ts";s:28:"ZGVmOWU0Y2UgMCAwIDAgOCAyNwo=";s:3:"age";s:4:"3470";s:7:"x-cache";s:43:"HIT from blog-front007.blog.ja.sinanode.com";s:7:"x-debug";s:14:"218.30.115.254";}s:5:"build";s:14:"20121030175911";}
+\ No newline at end of file
+---
+> <p>&nbsp;</P><br /><img src="http://simg.sinajs.cn/blog7style/images/special/1265.gif">&nbsp;<a href="http://sina.allyes.com/main/adfclick?db=sina&bid=204720,469641,474922&cid=0,0,0&sid=473458&advid=358&camid=37389&show=ignore&url=http://qing.blog.sina.com.cn/tag/%E5%86%99%E7%9C%9F" target="_blank">青春就应该这样绽放</a>&nbsp;&nbsp;<a href="http://sina.allyes.com/main/adfclick?db=sina&bid=204720,469645,474926&cid=0,0,0&sid=473464&advid=358&camid=37389&show=ignore&url=http%3A%2F%2Funion.9173.com%2Fpub%3Fp%3D1%26u%3D1008" target="_blank">游戏测试：三国时期谁是你最好的兄弟！！</a>&nbsp;&nbsp;<a href="http://sina.allyes.com/main/adfclick?db=sina&bid=204720,469646,474927&cid=0,0,0&sid=473465&advid=358&camid=37389&show=ignore&url=http://qing.blog.sina.com.cn/tag/%E6%98%9F%E5%BA%A7" target="_blank">你不得不信的星座秘密</a><img src="http://sina.allyes.com/main/adfclick?db=sina&bid=204720,470173,475454&cid=0,0,0&sid=474001&advid=358&camid=37389&show=ignore&url=http://simg.sinajs.cn/blog7style/images/common/sg_trans.gif?t=9">";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:6:"author";a:1:{i:0;a:5:{s:4:"data";s:6:"罗援";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:8:"comments";a:1:{i:0;a:5:{s:4:"data";s:60:"http://blog.sina.com.cn/s/blog_549c1d970101d6gl.html#comment";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Mon, 17 Jun 2013 13:10:08 +0800";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:52:"http://blog.sina.com.cn/s/blog_549c1d970101d6gl.html";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}}}}}}}}}}}}s:4:"type";i:128;s:7:"headers";a:14:{s:6:"server";s:11:"nginx/1.2.8";s:4:"date";s:29:"Sun, 28 Jul 2013 03:04:30 GMT";s:12:"content-type";s:23:"text/xml; charset=utf-8";s:14:"content-length";s:5:"90505";s:10:"connection";s:10:"keep-alive";s:13:"cache-control";s:8:"no-cache";s:7:"expires";s:29:"Sun, 28 Jul 2013 03:04:29 GMT";s:13:"last-modified";s:31:"Sun, 28 Jul 2013 10:24:55 GMT+8";s:12:"dpool_header";s:11:"10.55.27.46";s:7:"sina-lb";s:44:"amE5MC5oYS5qYTUuYmoubG9hZGJhbGFuY2Uuc2luYQ==";s:7:"sina-ts";s:28:"ZGZmOWU0Y2UgMCAxIDAgOCAzMQo=";s:3:"age";s:4:"2375";s:7:"x-cache";s:43:"HIT from blog-front007.blog.ja.sinanode.com";s:7:"x-debug";s:14:"218.30.115.254";}s:5:"build";s:14:"20121030175911";}
+\ No newline at end of file
+diff -r ./data/logs/default.log /Users/zzh/Zend/workspaces/DefaultWorkspace/aaaa/selfoss-2.7/data/logs/default.log
+580,625d579
+< 07-29-13 23:47:27 Debug ---
+< 07-29-13 23:47:27 Debug start fetching source "aaaa (id: 3)  username:zhenhua
+< 07-29-13 23:47:27 Debug spout successfully loaded: spouts\rss\feed
+< 07-29-13 23:47:27 Debug fetch content
+< 07-29-13 23:47:28 Debug minimum date: 2013-06-29 23:47:28
+< 07-29-13 23:47:28 Debug start item fetching
+< 07-29-13 23:47:28 Debug username:zhenhua item id:http://blog.sina.com.cn/s/blog_549c1d970101dyye.html
+< 07-29-13 23:47:28 Debug username:zhenhua item id:http://blog.sina.com.cn/s/blog_549c1d970101dtb9.html
+< 07-29-13 23:47:28 Debug username:zhenhua item id:http://blog.sina.com.cn/s/blog_549c1d970101drz0.html
+< 07-29-13 23:47:28 Debug username:zhenhua item id:http://blog.sina.com.cn/s/blog_549c1d970101dr5c.html
+< 07-29-13 23:47:28 Debug username:zhenhua item id:http://blog.sina.com.cn/s/blog_549c1d970101dlko.html
+< 07-29-13 23:47:28 Debug username:zhenhua item id:http://blog.sina.com.cn/s/blog_549c1d970101dhv1.html
+< 07-29-13 23:47:28 Debug username:zhenhua item id:http://blog.sina.com.cn/s/blog_549c1d970101dfon.html
+< 07-29-13 23:47:28 Debug username:zhenhua item id:http://blog.sina.com.cn/s/blog_549c1d970101decr.html
+< 07-29-13 23:47:28 Debug username:zhenhua item id:http://blog.sina.com.cn/s/blog_549c1d970101d9o6.html
+< 07-29-13 23:47:28 Debug item "中国绝不会接受菲律宾以任何形式非法侵占仁爱礁" (2013-06-22 09:43:11) older than 30 days
+< 07-29-13 23:47:28 Debug username:zhenhua item id:http://blog.sina.com.cn/s/blog_549c1d970101d6gl.html
+< 07-29-13 23:47:28 Debug item "为构建中美新型大国关系增砖添瓦" (2013-06-17 13:10:08) older than 30 days
+< 07-29-13 23:47:28 Debug destroy spout object
+< 07-29-13 23:47:28 Debug ---
+< 07-29-13 23:47:28 Debug start fetching source "aaaa (id: 4)  username:zzh
+< 07-29-13 23:47:28 Debug spout successfully loaded: spouts\rss\feed
+< 07-29-13 23:47:28 Debug fetch content
+< 07-29-13 23:47:28 Debug minimum date: 2013-06-29 23:47:28
+< 07-29-13 23:47:28 Debug start item fetching
+< 07-29-13 23:47:28 Debug username:zzh item id:http://blog.sina.com.cn/s/blog_549c1d970101dyye.html
+< 07-29-13 23:47:28 Debug username:zzh item id:http://blog.sina.com.cn/s/blog_549c1d970101dtb9.html
+< 07-29-13 23:47:28 Debug username:zzh item id:http://blog.sina.com.cn/s/blog_549c1d970101drz0.html
+< 07-29-13 23:47:28 Debug username:zzh item id:http://blog.sina.com.cn/s/blog_549c1d970101dr5c.html
+< 07-29-13 23:47:28 Debug username:zzh item id:http://blog.sina.com.cn/s/blog_549c1d970101dlko.html
+< 07-29-13 23:47:28 Debug username:zzh item id:http://blog.sina.com.cn/s/blog_549c1d970101dhv1.html
+< 07-29-13 23:47:28 Debug username:zzh item id:http://blog.sina.com.cn/s/blog_549c1d970101dfon.html
+< 07-29-13 23:47:28 Debug username:zzh item id:http://blog.sina.com.cn/s/blog_549c1d970101decr.html
+< 07-29-13 23:47:28 Debug username:zzh item id:http://blog.sina.com.cn/s/blog_549c1d970101d9o6.html
+< 07-29-13 23:47:28 Debug item "中国绝不会接受菲律宾以任何形式非法侵占仁爱礁" (2013-06-22 09:43:11) older than 30 days
+< 07-29-13 23:47:28 Debug username:zzh item id:http://blog.sina.com.cn/s/blog_549c1d970101d6gl.html
+< 07-29-13 23:47:28 Debug item "为构建中美新型大国关系增砖添瓦" (2013-06-17 13:10:08) older than 30 days
+< 07-29-13 23:47:28 Debug destroy spout object
+< 07-29-13 23:47:28 Debug cleanup orphaned and old items
+< 07-29-13 23:47:28 Debug cleanup orphaned and old items finished
+< 07-29-13 23:47:28 Debug delete orphaned thumbnails
+< 07-29-13 23:47:28 Debug delete orphaned thumbnails finished
+< 07-29-13 23:47:28 Debug delete orphaned icons
+< 07-29-13 23:47:28 Debug delete orphaned icons finished
+< 07-29-13 23:47:28 Debug optimize database
+< 07-29-13 23:47:28 Debug optimize database finished
+Only in ./: log.txt

@@ -38,6 +38,24 @@ class Items extends Database {
         \F3::get('db')->exec('UPDATE items SET unread=0 WHERE id IN (' . $id . ')');
     }
     
+    /**
+     * set the deliver tag
+     * @param unknown $id
+     */
+    public function setdelivered($id) {
+    	if($this->isValid('id', $id)===false)
+    		return;
+    	if(is_array($id))
+    		$id = implode(",", $id);
+    
+    	// i used string concatenation after validating $id
+    	\F3::get('db')->exec('UPDATE items SET delivered=1 WHERE id IN (' . $id . ')');
+    }    
+    
+    public function setAlldeivered($username)
+    {
+    	\F3::get('db')->exec('UPDATE items SET delivered=1 WHERE username=:username',array(':username' => $username));
+    }
     
     /**
      * mark item as unread
@@ -88,7 +106,7 @@ class Items extends Database {
      */
     public function add($values) {
         // don't add items twice
-        if($this->exists($values['uid'])===true)
+        if($this->exists($values['uid'],$values['username'])===true)
             return;
         
         \F3::get('db')->exec('INSERT INTO items (
@@ -139,9 +157,10 @@ class Items extends Database {
      * @return bool
      * @param string $uid
      */
-    public function exists($uid) {
-        $res = \F3::get('db')->exec('SELECT COUNT(*) AS amount FROM items WHERE uid=:uid',
-                    array( ':uid' => array($uid, \PDO::PARAM_STR) ) );
+    public function exists($uid,$username) {
+        $res = \F3::get('db')->exec('SELECT COUNT(*) AS amount FROM items WHERE uid=:uid AND username=:username',
+                    array( ':uid' => array($uid, \PDO::PARAM_STR) ,
+        ':username' => $username) );
         return $res[0]['amount']>0;
     }
     
@@ -204,8 +223,23 @@ class Items extends Database {
         }
         
         //username filter
-        $where .= " AND sources.username =:username";
-        $params[':username'] = $_SESSION['username'];
+        if(isset($options['username']) && strlen($options['source']) > 0)
+        {
+        	if( $options['username'] == "all")
+        	{
+        		//get all the user items; so there are no limition
+        	}else {
+        		$where .= " AND sources.username =:username";
+        		$params[':username'] = $options['username'];
+        	}
+        }else{
+        	$where .= " AND sources.username =:username";
+        	$params[':username'] = $_SESSION['username'];
+        }
+        
+        //deliver tag
+        if( isset($options['delivered']) && $options['delivered'] == 'undeliver')
+        	$where .= "AND delivered=0";
         
         // set limit
         if(!is_numeric($options['items']) || $options['items']>200)
@@ -224,7 +258,7 @@ class Items extends Database {
 
         // get items from database
         return \F3::get('db')->exec('SELECT 
-                    items.id, datetime, items.title AS title, content, unread, starred, source, thumbnail, icon, uid, link, sources.title as sourcetitle, sources.tags as tags
+                    items.id as id, datetime, items.title AS title, content, unread, starred, source, thumbnail, icon, uid, link, sources.title as sourcetitle, sources.tags as tags
                    FROM items, sources 
                    WHERE items.source=sources.id '.$where.' 
                    ORDER BY items.datetime DESC 
@@ -252,7 +286,9 @@ class Items extends Database {
         $thumbnails = array();
         $result = \F3::get('db')->exec('SELECT thumbnail 
                    FROM items 
-                   WHERE thumbnail!=""');
+                   WHERE thumbnail!="" AND username=:username',array(
+        	':username' => $_SESSION['username']
+        ));
         foreach($result as $thumb)
             $thumbnails[] = $thumb['thumbnail'];
         return $thumbnails;
@@ -268,7 +304,9 @@ class Items extends Database {
         $icons = array();
         $result = \F3::get('db')->exec('SELECT icon 
                    FROM items 
-                   WHERE icon!=""');
+                   WHERE icon!="" AND username=:username',array(
+        	':username' => $_SESSION['username']
+        ));
         foreach($result as $icon)
             $icons[] = $icon['icon'];
         return $icons;

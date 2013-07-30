@@ -4,7 +4,7 @@ $f3 = require(__DIR__.'/libs/f3/base.php');
 
 $f3->set('DEBUG',1);
 $f3->set('version','2.7');
-$f3->set('AUTOLOAD',__dir__.'/;libs/f3/;libs/;libs/WideImage/;daos/;libs/twitteroauth/;libs/FeedWriter/');
+$f3->set('AUTOLOAD',__dir__.'/;libs/f3/;libs/;libs/WideImage/;daos/;libs/twitteroauth/;libs/FeedWriter/;libs/Epub');
 $f3->set('cache',__dir__.'/data/cache');
 $f3->set('BASEDIR',__dir__);
 $f3->set('LOCALES',__dir__.'/public/lang/'); 
@@ -73,6 +73,7 @@ $f3->route('GET /register',   'controllers\Index->register');    // json
 $f3->route('POST /register',  'controllers\Index->register');    // json
 $f3->route('GET /logout',     'controllers\Index->logout');   // json
 $f3->route('GET /update',     'controllers\Index->update');   // text
+$f3->route('GET /epub',       'controllers\Index->genEpub');  // text
 
 // only for loggedin users or on public mode
 if($f3->get('auth')->isLoggedin()===true || \F3::get('public')==1) {

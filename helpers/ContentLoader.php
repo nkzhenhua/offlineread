@@ -36,7 +36,7 @@ class ContentLoader {
     
     
     /**
-     * updates all sources
+     * updates current user
      *
      * @return void
      */
@@ -48,6 +48,19 @@ class ContentLoader {
         $this->cleanup();
     }
     
+
+    /**
+     * updates all sources
+     *
+     * @return void
+     */
+    public function updateAlluser() {
+    	$sourcesDao = new \daos\Sources();
+    	foreach($sourcesDao->getallByLastUpdate() as $source) {
+    		$this->fetch($source);
+    	}
+    	$this->cleanup();
+    }
     
     /**
      * updates a given source
@@ -97,7 +110,7 @@ class ContentLoader {
         $lasticon = false;
         foreach ($spout as $item) {
             // item already in database?
-            if($this->itemsDao->exists($item->getId())===true)
+            if($this->itemsDao->exists($item->getId(),$source['username'])===true)
                 continue;
             
             // test date: continue with next if item too old

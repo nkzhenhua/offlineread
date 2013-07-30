@@ -50,9 +50,9 @@ class Database {
             			deliver_email char(64),
             			deliver_time time,
             			deliver_end_date date,
-            			deliver_enable tinyint,
-            			source_num_limit int,
-            			items_num_limit int,
+            			deliver_enable BOOL NOT NULL DEFAULT false,
+            			source_num_limit int not null default 10,
+            			items_num_limit int not null default 200,
                         INDEX (username)
                     ) ENGINE = MYISAM DEFAULT CHARSET=utf8;
                 ');
@@ -72,7 +72,9 @@ class Database {
                         source INT NOT NULL ,
                         uid VARCHAR(255) NOT NULL,
                         link TEXT NOT NULL,
-                        INDEX (source,username)
+                		delivered BOOL NOT NULL DEFAULT false,
+                        INDEX (source),
+                		INDEX (username)
                     ) ENGINE = MYISAM DEFAULT CHARSET=utf8;
                 ');
             

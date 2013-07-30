@@ -116,7 +116,7 @@ class Sources extends Database {
      *
      * @return mixed all sources
      */
-    public function getByLastUpdate() {
+    public function getallByLastUpdate() {
         $ret = \F3::get('db')->exec('SELECT id, title, tags, spout, params, error,username FROM sources ORDER BY lastupdate ASC');
         $spoutLoader = new \helpers\SpoutLoader();
         for($i=0;$i<count($ret);$i++)
@@ -124,6 +124,21 @@ class Sources extends Database {
         return $ret;
     }
     
+
+    /**
+     * returns all sources for a user
+     *
+     * @return mixed all sources
+     */
+    public function getByLastUpdate() {
+    	$ret = \F3::get('db')->exec('SELECT id, title, tags, spout, params, error,username FROM sources where username=:username
+    			 ORDER BY lastupdate ASC',
+        array(':username' => $_SESSION['username']));
+    	$spoutLoader = new \helpers\SpoutLoader();
+    	for($i=0;$i<count($ret);$i++)
+    		$ret[$i]['spout_obj'] = $spoutLoader->get( $ret[$i]['spout'] );
+        return $ret;
+    }
     
     /**
      * returns all sources
@@ -168,7 +183,9 @@ class Sources extends Database {
      * @return mixed all sources
      */
     public function getAllTags() {
-        $result = \F3::get('db')->exec('SELECT tags FROM sources');
+        $result = \F3::get('db')->exec('SELECT tags FROM sources where username=:username',array(
+        	':username' => $_SESSION['username']
+        ));
         $tags = array();
         foreach($result as $res)
             $tags = array_merge($tags, explode(",",$res['tags']));

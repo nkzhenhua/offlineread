@@ -10,7 +10,7 @@ namespace helpers;
  * @license    GPLv3 (http://www.gnu.org/licenses/gpl-3.0.html)
  * @author     Tobias Zeising <tobias.zeising@aditu.de>
  */
-class Authentication extends \daos\Database {
+class Authentication {
 
     /**
      * loggedin
@@ -30,7 +30,6 @@ class Authentication extends \daos\Database {
      * start session and check login
      */
     public function __construct() {
-    	parent::__construct();
         // session cookie will be valid for one month
         session_set_cookie_params((3600*24*30), "/");
         
@@ -86,10 +85,9 @@ class Authentication extends \daos\Database {
      */
     public function login($username, $password) {
         if($this->enabled()) {
-        	$res = \F3::get('db')->exec('SELECT passwd AS passwd FROM users WHERE username=:username',array(':username' => $username));
-            if(isset($res[0]['passwd']) &&
-               hash("md5", \F3::get('salt') . $password) == $res[0]['passwd']
-) {
+        	$userdb = new \daos\User();
+        	$res = $userdb->getpasswd($username);
+            if(isset($res) && hash("md5", \F3::get('salt') . $password) == $res) {
                 $this->loggedin = true;
                 $_SESSION['username'] = $username;
                 \F3::set('username',$username);
@@ -108,18 +106,17 @@ class Authentication extends \daos\Database {
 	 * @param string $password        	
 	 */
 	public function register($username, $password) {
-		$res = \F3::get ( 'db' )->exec ( 'SELECT username AS username FROM users WHERE username=:username', array (
-				':username' => $username 
-		) );
-		if (isset ( $res[0]['username'] )) {
+		$userdb = new \daos\User();
+		if ($userdb->hasUser($username)) {
 			return false;
 		}
 		
 		$pswd = hash ( "md5", \F3::get ( 'salt' ) . $password );
-		\F3::get ( 'db' )->exec ( 'insert into users (username,passwd) values (:username, :passwd)', array (
-				':username' => $username,
-				':passwd' => $pswd 
-		) );
+		$userinfo = array();
+		$userinfo['username'] = $username;
+		$userinfo['passwd'] = $pswd;
+		
+		$userdb->addUser($userinfo);
 		
 		$this->loggedin = true;
 		$_SESSION ['username'] = $username;
