@@ -1366,7 +1366,7 @@ class EPub {
      * @return string $url     The formatted uuid
      */
     function createUUID($version = 4, $url = NULL) {
-        include_once("lib.uuid.php");
+//        include_once("lib.uuid.php");
         return UUID::mint($version, $url, UUID::nsURL);
     }
 
