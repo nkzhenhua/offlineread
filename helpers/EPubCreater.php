@@ -24,16 +24,16 @@ class EPubCreater {
 	}
 	public function crate_book($username, $title,$filename) {
 		$book = new \EPub ();
-		logLine ( "new EPub()" );
-		logLine ( "EPub version: " . EPub::VERSION );
-		logLine ( "EPub Req. Zip version: " . EPub::REQ_ZIP_VERSION );
-		logLine ( "Zip version: " . Zip::VERSION );
-		logLine ( "getCurrentServerURL: " . $book->getCurrentServerURL () );
-		logLine ( "getCurrentPageURL..: " . $book->getCurrentPageURL () );
+		$this->logLine( "new EPub()" );
+		$this->logLine ( "EPub version: " . \EPub::VERSION );
+		$this->logLine ( "EPub Req. Zip version: " . \EPub::REQ_ZIP_VERSION );
+		$this->logLine ( "Zip version: " . \Zip::VERSION );
+		$this->logLine ( "getCurrentServerURL: " . $book->getCurrentServerURL () );
+		$this->logLine ( "getCurrentPageURL..: " . $book->getCurrentPageURL () );
 		
 		// Title and Identifier are mandatory!
 		$book->setTitle ( $title );
-		$book->setIdentifier ( "http://offlineread.com", EPub::IDENTIFIER_URI ); // Could also be the ISBN number, prefered for published books, or a UUID.
+		$book->setIdentifier ( "http://offlineread.com", \EPub::IDENTIFIER_URI ); // Could also be the ISBN number, prefered for published books, or a UUID.
 		$book->setLanguage ( "en" ); // Not needed, but included for the example, Language is mandatory, but EPub defaults to "en". Use RFC3066 Language codes, such as "en", "da", "fr" etc.
 		$book->setDescription ( "generated from www.offlineread.com" );
 		$book->setAuthor ( "offlineread.com", "offlineread.com" );
@@ -41,9 +41,9 @@ class EPubCreater {
 		$book->setDate ( time () ); // Strictly not needed as the book date defaults to time().
 		$book->setRights ( "Copyright and licence information specific for the book." ); // As this is generated, this _could_ contain the name or licence information of the user who purchased the book, if needed. If this is used that way, the identifier must also be made unique for the book.
 		$book->setSourceURL ( "http://JohnJaneDoePublications.com/books/TestBook.html" );
-		logLine ( "Set up parameters" );
+		$this->logLine ( "Set up parameters" );
 		$book->addCSSFile ( "styles.css", "css1", $this->cssData);
-		logLine ( "Add css" );
+		$this->logLine ( "Add css" );
 		
 		// This test requires you have an image, change "demo/cover-image.jpg" to match your location.
 		// $book->setCoverImage("Cover.jpg", file_get_contents("demo/cover-image.jpg"), "image/jpeg");
@@ -61,22 +61,31 @@ class EPubCreater {
 				'items' => 100, // the max number of deliver
 				'delivered' => 'undeliver' 
 		);
+		$has_item='false';
 		$items=$this->itemsDao->get( $options );
 		foreach ( $items as $item ) {
-			$book->addChapter(chop($item['title']), chop($item['uid']).'.html', 
-					$this->content_start.$item['content'].$this->content_end,true,EPub::EXTERNAL_REF_ADD);
+			$title_html='<h1 align=\"center\">'.$item['title'].'</h1><hr/>';
+			$book->addChapter(chop($item['title']), 'content/'.$item['id'].'.html', 
+					$this->content_start.$title_html.$item['content'].$this->content_end,true,\EPub::EXTERNAL_REF_ADD);
+			$this->itemsDao->setdelivered($item['id']);
+			$has_item='true';
+		}
+		if($has_item == 'false')
+		{
+			return false;
 		}		
 		$book->finalize (); // Finalize the book, and build the archive.
 		 
 		// Save book as a file relative to your script (for local ePub generation)
 		// Notice that the extions .epub will be added by the script.
 		// The second parameter is a directory name which is '.' by default. Don't use trailing slash!
-		$book->saveBook ( $filename, '.' );
+		$book->saveBook ( $filename, 'data/epub' );
+		return true;
 	}
 	
 	// After this point your script should call exit. If anything is written to the output,
 	// it'll be appended to the end of the book, causing the epub file to become corrupt.
-	function logLine($line) {
+	private function logLine($line) {
 		\F3::get('logger')->log($line, \DEBUG);
 	}
 }
