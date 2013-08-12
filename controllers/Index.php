@@ -113,12 +113,18 @@ class Index extends BaseController {
         if ( isset($_GET['register']))
         {
         	if(count($_POST)>0) {
-        		if(!isset($_POST['username']))
+        		
+        		if(!isset($_POST['reg_username']))
+        		{
         			$this->view->error = 'no username given';
-        		else if(!isset($_POST['password']))
+        		}
+        		else if(!isset($_POST['reg_password']))
+        		{
         			$this->view->error = 'no password given';
+        		}
         		else {
-        			if(\F3::get('auth')->register($_POST['username'], $_POST['password'])===false)
+        			 
+        			if(\F3::get('auth')->register($_POST['reg_username'], $_POST['reg_password'])===false)
         				$this->view->error = 'user name existed';
         		}
         	}
@@ -134,7 +140,6 @@ class Index extends BaseController {
         if( 
             isset($_GET['login']) || (\F3::get('auth')->isLoggedin()!==true && \F3::get('public')!=1)
            ) {
-        	 
             // authenticate?
             if(count($_POST)>0) {
                 if(!isset($_POST['username']))
@@ -186,8 +191,8 @@ class Index extends BaseController {
     public function register() {
     	
     	$view = new \helpers\View();
-    	$username = isset($_REQUEST["username"]) ? $_REQUEST["username"] : '';
-    	$password = isset($_REQUEST["password"]) ? $_REQUEST["password"] : '';
+    	$username = isset($_REQUEST["reg_username"]) ? $_REQUEST["reg_username"] : '';
+    	$password = isset($_REQUEST["reg_password"]) ? $_REQUEST["reg_password"] : '';
     
     	if(\F3::get('auth')->register($username,$password)==true)
     		$view->jsonSuccess(array(
@@ -230,16 +235,35 @@ class Index extends BaseController {
         $loader = new \helpers\ContentLoader();
         $loader->update();
         
-        echo "finished";
+//        echo "finished";
     }
     
     /**
      * gen epub book for user
      */  
     public function genEpub(){
-    	echo "start gen epub file";
+    	echo "start gen epub file<br>";
     	$epub = new \helpers\EPubCreater();
-    	$epub->crate_book($_SESSION['username'], "hehehehe", 'test');
+    	$today = date("Ymd");
+    	$filename=$_SESSION['username'].$today;
+    	if(file_exists('data/epub/'.$filename.'.epub'))
+    	{
+    		unlink('data/epub/'.$filename.'.epub');
+    	}
+    	$succ=$epub->crate_book($_SESSION['username'], "offlineread_".$today, $filename);
+    	if( $succ == false)
+    	{
+    		echo "no items to send<br>";
+    		return;
+    	}
+    	$user=new \daos\User();
+    	$userinfo = $user->getUserinfo($_SESSION['username']);
+    	if (isset ( $userinfo ['deliver_enable'] ) && $userinfo ['deliver_enable'] == 1) {
+    		echo "deliver to ".$_SESSION ['username'];
+			$email = new \helpers\Email ();
+			$email->sent_file_to_user ( 'data/epub/' . $filename.'.epub', $_SESSION ['username'], $userinfo ['deliver_email'], \F3::get ( 'smtp_user' ) );
+//			$email->sent_file_to_user ( 'data/epub/' . $filename.'.epub', $_SESSION ['username'], 'nkzhenhua@gmail.com', \F3::get ( 'smtp_user' ) );	
+    	}
     	echo "finished";
     }
     

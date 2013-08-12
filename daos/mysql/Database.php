@@ -46,7 +46,7 @@ class Database {
             	\F3::get('db')->exec('
                     CREATE TABLE users (
             			username char(64) PRIMARY KEY,
-            			passwd char(16) NOT NULL,
+            			passwd char(240) NOT NULL,
             			deliver_email char(64),
             			deliver_time time,
             			deliver_end_date date,

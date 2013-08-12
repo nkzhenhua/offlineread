@@ -18,9 +18,10 @@ class User extends Database {
      */
     public function getUserinfo($username)
     {
-    	$res = \F3::get('db')->exec(' SELECT * FROM users  where username=:username',
+    	$res = \F3::get('db')->exec(' SELECT username,passwd,deliver_email,deliver_time,deliver_end_date,deliver_enable
+    			,source_num_limit,items_num_limit FROM users  where username=:username',
         array(':username' => $username));
-    	return $res;
+    	return $res[0];
     }
     
     /**
@@ -114,6 +115,6 @@ class User extends Database {
         		array(
         			':username' => $username
                  ));
-        return $res[0]['passwd'];
+        return $res;
     }
 }

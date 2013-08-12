@@ -52,6 +52,7 @@ class Sources extends BaseController {
     public function add() {
         $spoutLoader = new \helpers\SpoutLoader();
         $this->view->spouts = $spoutLoader->all();
+		// update the source
         echo $this->view->render('templates/source.phtml');
     }
     

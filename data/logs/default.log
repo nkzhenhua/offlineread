@@ -641,3 +641,351 @@
 07-30-13 9:09:17 Error Unimplemented method for mysql: getpasswd
 07-30-13 9:10:03 Error Unimplemented method for mysql: getpasswd
 07-30-13 9:10:03 Error Unimplemented method for mysql: getpasswd
+07-30-13 23:31:25 Debug new EPub()
+07-30-13 23:31:36 Debug new EPub()
+07-30-13 23:32:41 Debug new EPub()
+07-30-13 23:32:41 Debug EPub version: 2.12
+07-30-13 23:32:41 Debug EPub Req. Zip version: 1.38
+07-30-13 23:32:41 Debug Zip version: 1.38
+07-30-13 23:32:41 Debug getCurrentServerURL: http://sites/
+07-30-13 23:32:41 Debug getCurrentPageURL..: http://sites/epub
+07-30-13 23:32:44 Debug new EPub()
+07-30-13 23:32:44 Debug EPub version: 2.12
+07-30-13 23:32:44 Debug EPub Req. Zip version: 1.38
+07-30-13 23:32:44 Debug Zip version: 1.38
+07-30-13 23:32:44 Debug getCurrentServerURL: http://sites/
+07-30-13 23:32:44 Debug getCurrentPageURL..: http://sites/epub
+07-30-13 23:33:29 Debug new EPub()
+07-30-13 23:33:29 Debug EPub version: 2.12
+07-30-13 23:33:29 Debug EPub Req. Zip version: 1.38
+07-30-13 23:33:29 Debug Zip version: 1.38
+07-30-13 23:33:29 Debug getCurrentServerURL: http://sites/
+07-30-13 23:33:29 Debug getCurrentPageURL..: http://sites/epub
+07-30-13 23:33:29 Debug Set up parameters
+07-30-13 23:33:29 Debug Add css
+07-30-13 23:35:12 Debug new EPub()
+07-30-13 23:35:12 Debug EPub version: 2.12
+07-30-13 23:35:12 Debug EPub Req. Zip version: 1.38
+07-30-13 23:35:12 Debug Zip version: 1.38
+07-30-13 23:35:12 Debug getCurrentServerURL: http://sites/
+07-30-13 23:35:12 Debug getCurrentPageURL..: http://sites/epub
+07-30-13 23:35:12 Debug Set up parameters
+07-30-13 23:35:12 Debug Add css
+07-30-13 23:36:39 Debug new EPub()
+07-30-13 23:36:39 Debug EPub version: 2.12
+07-30-13 23:36:39 Debug EPub Req. Zip version: 1.38
+07-30-13 23:36:39 Debug Zip version: 1.38
+07-30-13 23:36:39 Debug getCurrentServerURL: http://sites/
+07-30-13 23:36:39 Debug getCurrentPageURL..: http://sites/epub
+07-30-13 23:36:39 Debug Set up parameters
+07-30-13 23:36:39 Debug Add css
+07-30-13 23:37:03 Debug new EPub()
+07-30-13 23:37:03 Debug EPub version: 2.12
+07-30-13 23:37:03 Debug EPub Req. Zip version: 1.38
+07-30-13 23:37:03 Debug Zip version: 1.38
+07-30-13 23:37:03 Debug getCurrentServerURL: http://sites/
+07-30-13 23:37:03 Debug getCurrentPageURL..: http://sites/epub
+07-30-13 23:37:03 Debug Set up parameters
+07-30-13 23:37:03 Debug Add css
+07-30-13 23:38:25 Debug new EPub()
+07-30-13 23:38:25 Debug EPub version: 2.12
+07-30-13 23:38:25 Debug EPub Req. Zip version: 1.38
+07-30-13 23:38:25 Debug Zip version: 1.38
+07-30-13 23:38:25 Debug getCurrentServerURL: http://sites/
+07-30-13 23:38:25 Debug getCurrentPageURL..: http://sites/epub
+07-30-13 23:38:25 Debug Set up parameters
+07-30-13 23:38:25 Debug Add css
+07-30-13 23:43:15 Debug new EPub()
+07-30-13 23:43:15 Debug EPub version: 2.12
+07-30-13 23:43:15 Debug EPub Req. Zip version: 1.38
+07-30-13 23:43:15 Debug Zip version: 1.38
+07-30-13 23:43:15 Debug getCurrentServerURL: http://sites/
+07-30-13 23:43:15 Debug getCurrentPageURL..: http://sites/epub
+07-30-13 23:43:15 Debug Set up parameters
+07-30-13 23:43:15 Debug Add css
+07-30-13 23:43:22 Debug new EPub()
+07-30-13 23:43:22 Debug EPub version: 2.12
+07-30-13 23:43:22 Debug EPub Req. Zip version: 1.38
+07-30-13 23:43:22 Debug Zip version: 1.38
+07-30-13 23:43:22 Debug getCurrentServerURL: http://sites/
+07-30-13 23:43:22 Debug getCurrentPageURL..: http://sites/epub
+07-30-13 23:43:22 Debug Set up parameters
+07-30-13 23:43:22 Debug Add css
+07-30-13 23:44:04 Debug new EPub()
+07-30-13 23:44:04 Debug EPub version: 2.12
+07-30-13 23:44:04 Debug EPub Req. Zip version: 1.38
+07-30-13 23:44:04 Debug Zip version: 1.38
+07-30-13 23:44:04 Debug getCurrentServerURL: http://sites/
+07-30-13 23:44:04 Debug getCurrentPageURL..: http://sites/epub
+07-30-13 23:44:04 Debug Set up parameters
+07-30-13 23:44:04 Debug Add css
+07-30-13 23:44:29 Debug new EPub()
+07-30-13 23:44:29 Debug EPub version: 2.12
+07-30-13 23:44:29 Debug EPub Req. Zip version: 1.38
+07-30-13 23:44:29 Debug Zip version: 1.38
+07-30-13 23:44:29 Debug getCurrentServerURL: http://sites/
+07-30-13 23:44:29 Debug getCurrentPageURL..: http://sites/epub
+07-30-13 23:44:29 Debug Set up parameters
+07-30-13 23:44:29 Debug Add css
+07-30-13 23:50:20 Debug new EPub()
+07-30-13 23:50:20 Debug EPub version: 2.12
+07-30-13 23:50:20 Debug EPub Req. Zip version: 1.38
+07-30-13 23:50:20 Debug Zip version: 1.38
+07-30-13 23:50:20 Debug getCurrentServerURL: http://sites/
+07-30-13 23:50:20 Debug getCurrentPageURL..: http://sites/epub
+07-30-13 23:50:20 Debug Set up parameters
+07-30-13 23:50:20 Debug Add css
+07-30-13 23:51:25 Debug new EPub()
+07-30-13 23:51:25 Debug EPub version: 2.12
+07-30-13 23:51:25 Debug EPub Req. Zip version: 1.38
+07-30-13 23:51:25 Debug Zip version: 1.38
+07-30-13 23:51:25 Debug getCurrentServerURL: http://sites/
+07-30-13 23:51:25 Debug getCurrentPageURL..: http://sites/epub
+07-30-13 23:51:25 Debug Set up parameters
+07-30-13 23:51:25 Debug Add css
+07-30-13 23:51:32 Debug new EPub()
+07-30-13 23:51:32 Debug EPub version: 2.12
+07-30-13 23:51:32 Debug EPub Req. Zip version: 1.38
+07-30-13 23:51:32 Debug Zip version: 1.38
+07-30-13 23:51:32 Debug getCurrentServerURL: http://sites/
+07-30-13 23:51:32 Debug getCurrentPageURL..: http://sites/epub
+07-30-13 23:51:32 Debug Set up parameters
+07-30-13 23:51:32 Debug Add css
+07-30-13 23:51:38 Debug new EPub()
+07-30-13 23:51:38 Debug EPub version: 2.12
+07-30-13 23:51:38 Debug EPub Req. Zip version: 1.38
+07-30-13 23:51:38 Debug Zip version: 1.38
+07-30-13 23:51:38 Debug getCurrentServerURL: http://sites/
+07-30-13 23:51:38 Debug getCurrentPageURL..: http://sites/epub
+07-30-13 23:51:38 Debug Set up parameters
+07-30-13 23:51:38 Debug Add css
+08-04-13 0:28:47 Debug new EPub()
+08-04-13 0:28:47 Debug EPub version: 2.12
+08-04-13 0:28:47 Debug EPub Req. Zip version: 1.38
+08-04-13 0:28:47 Debug Zip version: 1.38
+08-04-13 0:28:47 Debug getCurrentServerURL: http://sites/
+08-04-13 0:28:47 Debug getCurrentPageURL..: http://sites/epub
+08-04-13 0:28:47 Debug Set up parameters
+08-04-13 0:28:47 Debug Add css
+08-04-13 0:34:07 Debug new EPub()
+08-04-13 0:34:07 Debug EPub version: 2.12
+08-04-13 0:34:07 Debug EPub Req. Zip version: 1.38
+08-04-13 0:34:07 Debug Zip version: 1.38
+08-04-13 0:34:07 Debug getCurrentServerURL: http://sites/
+08-04-13 0:34:07 Debug getCurrentPageURL..: http://sites/epub
+08-04-13 0:34:07 Debug Set up parameters
+08-04-13 0:34:07 Debug Add css
+08-04-13 0:36:07 Debug new EPub()
+08-04-13 0:36:07 Debug EPub version: 2.12
+08-04-13 0:36:07 Debug EPub Req. Zip version: 1.38
+08-04-13 0:36:07 Debug Zip version: 1.38
+08-04-13 0:36:07 Debug getCurrentServerURL: http://sites/
+08-04-13 0:36:07 Debug getCurrentPageURL..: http://sites/epub
+08-04-13 0:36:07 Debug Set up parameters
+08-04-13 0:36:07 Debug Add css
+08-04-13 0:40:17 Debug ---
+08-04-13 0:40:17 Debug start fetching source "kaiens (id: 5)  username:zzh
+08-04-13 0:40:17 Debug spout successfully loaded: spouts\rss\feed
+08-04-13 0:40:17 Debug fetch content
+08-04-13 0:40:18 Debug minimum date: 2013-07-05 00:40:18
+08-04-13 0:40:18 Debug start item fetching
+08-04-13 0:40:18 Debug start insertion of new item "8.5大盘直播和操作策略"
+08-04-13 0:40:18 Debug item content sanitized
+08-04-13 0:40:18 Debug icon generated: http://blog.sina.com.cn/favicon.ico
+08-04-13 0:40:18 Debug item inserted
+08-04-13 0:40:18 Debug Memory usage: 10752128
+08-04-13 0:40:18 Debug Memory peak usage: 11086800
+08-04-13 0:40:18 Debug start insertion of new item "周预测轮盘：新一轮创业板盛宴开启"
+08-04-13 0:40:18 Debug item content sanitized
+08-04-13 0:40:18 Debug use last icon: http://blog.sina.com.cn/favicon.ico
+08-04-13 0:40:18 Debug item inserted
+08-04-13 0:40:18 Debug Memory usage: 10762656
+08-04-13 0:40:18 Debug Memory peak usage: 11086800
+08-04-13 0:40:18 Debug start insertion of new item "上涨时守住股，下跌时守住心"
+08-04-13 0:40:18 Debug item content sanitized
+08-04-13 0:40:18 Debug use last icon: http://blog.sina.com.cn/favicon.ico
+08-04-13 0:40:18 Debug item inserted
+08-04-13 0:40:18 Debug Memory usage: 10773104
+08-04-13 0:40:18 Debug Memory peak usage: 11086800
+08-04-13 0:40:18 Debug start insertion of new item "今天上午网络不通，大盘直播暂停"
+08-04-13 0:40:18 Debug item content sanitized
+08-04-13 0:40:18 Debug use last icon: http://blog.sina.com.cn/favicon.ico
+08-04-13 0:40:18 Debug item inserted
+08-04-13 0:40:18 Debug Memory usage: 10783032
+08-04-13 0:40:18 Debug Memory peak usage: 11086800
+08-04-13 0:40:18 Debug start insertion of new item "速记英语，给有用的人"
+08-04-13 0:40:18 Debug item content sanitized
+08-04-13 0:40:18 Debug use last icon: http://blog.sina.com.cn/favicon.ico
+08-04-13 0:40:18 Debug item inserted
+08-04-13 0:40:18 Debug Memory usage: 10793992
+08-04-13 0:40:18 Debug Memory peak usage: 11093216
+08-04-13 0:40:18 Debug start insertion of new item "8.2大盘直播和操作策略"
+08-04-13 0:40:18 Debug item content sanitized
+08-04-13 0:40:18 Debug use last icon: http://blog.sina.com.cn/favicon.ico
+08-04-13 0:40:18 Debug item inserted
+08-04-13 0:40:18 Debug Memory usage: 10804520
+08-04-13 0:40:18 Debug Memory peak usage: 11106024
+08-04-13 0:40:18 Debug start insertion of new item "每次经济转型都是赚钱的重大机会"
+08-04-13 0:40:18 Debug item content sanitized
+08-04-13 0:40:18 Debug use last icon: http://blog.sina.com.cn/favicon.ico
+08-04-13 0:40:18 Debug item inserted
+08-04-13 0:40:18 Debug Memory usage: 10815016
+08-04-13 0:40:18 Debug Memory peak usage: 11119272
+08-04-13 0:40:18 Debug start insertion of new item "8.1财经要闻评论"
+08-04-13 0:40:18 Debug item content sanitized
+08-04-13 0:40:18 Debug use last icon: http://blog.sina.com.cn/favicon.ico
+08-04-13 0:40:18 Debug item inserted
+08-04-13 0:40:18 Debug Memory usage: 10825616
+08-04-13 0:40:18 Debug Memory peak usage: 11132872
+08-04-13 0:40:18 Debug start insertion of new item "下半年经济政策分析与A股方向"
+08-04-13 0:40:18 Debug item content sanitized
+08-04-13 0:40:18 Debug use last icon: http://blog.sina.com.cn/favicon.ico
+08-04-13 0:40:18 Debug item inserted
+08-04-13 0:40:18 Debug Memory usage: 10836248
+08-04-13 0:40:18 Debug Memory peak usage: 11146272
+08-04-13 0:40:18 Debug start insertion of new item "如何正确看待创业板的高估值？"
+08-04-13 0:40:18 Debug item content sanitized
+08-04-13 0:40:18 Debug use last icon: http://blog.sina.com.cn/favicon.ico
+08-04-13 0:40:18 Debug item inserted
+08-04-13 0:40:18 Debug Memory usage: 10846752
+08-04-13 0:40:18 Debug Memory peak usage: 11158416
+08-04-13 0:40:18 Debug destroy spout object
+08-04-13 0:40:18 Debug ---
+08-04-13 0:40:18 Debug start fetching source "aaaa (id: 4)  username:zzh
+08-04-13 0:40:18 Debug spout successfully loaded: spouts\rss\feed
+08-04-13 0:40:18 Debug fetch content
+08-04-13 0:40:18 Debug minimum date: 2013-07-05 00:40:18
+08-04-13 0:40:18 Debug start item fetching
+08-04-13 0:40:18 Debug start insertion of new item "采取多种手段，在多领域、全方位宣示和捍卫国家主权"
+08-04-13 0:40:18 Debug item content sanitized
+08-04-13 0:40:18 Debug icon generated: http://blog.sina.com.cn/favicon.ico
+08-04-13 0:40:18 Debug item inserted
+08-04-13 0:40:18 Debug Memory usage: 11305024
+08-04-13 0:40:18 Debug Memory peak usage: 11876968
+08-04-13 0:40:18 Debug start insertion of new item "&#12298;&#20843;&#19968;&#25234;&#24576;&amp;nbsp;&#20891;&#26071;&#29454;&#29454;&#12299;"
+08-04-13 0:40:18 Debug item content sanitized
+08-04-13 0:40:18 Debug use last icon: http://blog.sina.com.cn/favicon.ico
+08-04-13 0:40:18 Debug item inserted
+08-04-13 0:40:18 Debug Memory usage: 11312312
+08-04-13 0:40:18 Debug Memory peak usage: 11876968
+08-04-13 0:40:18 Debug start insertion of new item "从出兵决策看抗美援朝战争的正义性和正确性"
+08-04-13 0:40:18 Debug item content sanitized
+08-04-13 0:40:18 Debug use last icon: http://blog.sina.com.cn/favicon.ico
+08-04-13 0:40:18 Debug item inserted
+08-04-13 0:40:18 Debug Memory usage: 11378320
+08-04-13 0:40:18 Debug Memory peak usage: 11964928
+08-04-13 0:40:18 Debug destroy spout object
+08-04-13 0:40:18 Debug cleanup orphaned and old items
+08-04-13 0:40:18 Debug cleanup orphaned and old items finished
+08-04-13 0:40:18 Debug delete orphaned thumbnails
+08-04-13 0:40:18 Debug delete orphaned thumbnails finished
+08-04-13 0:40:18 Debug delete orphaned icons
+08-04-13 0:40:18 Debug delete orphaned icons finished
+08-04-13 0:40:18 Debug optimize database
+08-04-13 0:40:18 Debug optimize database finished
+08-04-13 0:41:51 Debug new EPub()
+08-04-13 0:41:51 Debug EPub version: 2.12
+08-04-13 0:41:51 Debug EPub Req. Zip version: 1.38
+08-04-13 0:41:51 Debug Zip version: 1.38
+08-04-13 0:41:51 Debug getCurrentServerURL: http://sites/
+08-04-13 0:41:51 Debug getCurrentPageURL..: http://sites/epub
+08-04-13 0:41:51 Debug Set up parameters
+08-04-13 0:41:51 Debug Add css
+08-04-13 11:23:17 Debug send to:zzh by nkzhenhua@gmail.com from offlineread01@gmail.com
+08-04-13 11:23:17 Debug Mailer Error: Message body empty
+08-04-13 11:24:15 Debug send to:zzh by nkzhenhua@gmail.com from offlineread01@gmail.com
+08-04-13 11:24:15 Debug Mailer Error: Message body empty
+08-04-13 11:24:46 Debug send to:zzh by nkzhenhua@gmail.com from offlineread01@gmail.com
+08-04-13 11:24:46 Debug Mailer Error: Message body empty
+08-04-13 11:26:05 Debug send to:zzh by nkzhenhua_55@iduokan.com from offlineread01@gmail.com
+08-04-13 11:26:05 Debug Mailer Error: Message body empty
+08-04-13 11:26:11 Debug send to:zzh by nkzhenhua_55@iduokan.com from offlineread01@gmail.com
+08-04-13 11:26:11 Debug Mailer Error: Message body empty
+08-04-13 11:27:23 Debug send to:zzh by nkzhenhua_55@iduokan.com from offlineread01@gmail.com
+08-04-13 11:27:23 Debug Mailer Error: Message body empty
+08-04-13 11:30:38 Debug new EPub()
+08-04-13 11:30:38 Debug EPub version: 2.12
+08-04-13 11:30:38 Debug EPub Req. Zip version: 1.38
+08-04-13 11:30:38 Debug Zip version: 1.38
+08-04-13 11:30:38 Debug getCurrentServerURL: http://sites/
+08-04-13 11:30:38 Debug getCurrentPageURL..: http://sites/epub
+08-04-13 11:30:38 Debug Set up parameters
+08-04-13 11:30:38 Debug Add css
+08-04-13 11:32:00 Debug send to:zzh by nkzhenhua_55@iduokan.com from offlineread01@gmail.com
+08-04-13 11:32:00 Debug Mailer Error: Message body empty
+08-04-13 12:09:27 Debug new EPub()
+08-04-13 12:09:27 Debug EPub version: 2.12
+08-04-13 12:09:27 Debug EPub Req. Zip version: 1.38
+08-04-13 12:09:27 Debug Zip version: 1.38
+08-04-13 12:09:27 Debug getCurrentServerURL: http://sites/
+08-04-13 12:09:27 Debug getCurrentPageURL..: http://sites/epub
+08-04-13 12:09:27 Debug Set up parameters
+08-04-13 12:09:27 Debug Add css
+08-04-13 12:09:44 Debug send to:zzh by nkzhenhua_55@iduokan.com from offlineread01@gmail.com
+08-04-13 12:09:52 Debug Message sent!
+08-07-13 13:23:29 Debug ---
+08-07-13 13:23:29 Debug start fetching source "aaaa (id: 4)  username:zzh
+08-07-13 13:23:29 Debug spout successfully loaded: spouts\rss\feed
+08-07-13 13:23:29 Debug fetch content
+08-07-13 13:23:36 Debug minimum date: 2013-07-08 13:23:36
+08-07-13 13:23:36 Debug start item fetching
+08-07-13 13:23:36 Debug item "转凤凰网采访《罗援解读中国鹰》" (2013-07-04 18:01:54) older than 30 days
+08-07-13 13:23:36 Debug item "[转载]热烈庆祝中国共产党建党九十二周年！" (2013-07-01 19:41:25) older than 30 days
+08-07-13 13:23:36 Debug destroy spout object
+08-07-13 13:23:36 Debug ---
+08-07-13 13:23:36 Debug start fetching source "kaiens (id: 5)  username:zzh
+08-07-13 13:23:36 Debug spout successfully loaded: spouts\rss\feed
+08-07-13 13:23:36 Debug fetch content
+08-07-13 13:23:43 Debug minimum date: 2013-07-08 13:23:43
+08-07-13 13:23:43 Debug start item fetching
+08-07-13 13:23:43 Debug start insertion of new item "8.7财经要闻评论"
+08-07-13 13:23:43 Debug item content sanitized
+08-07-13 13:23:52 Debug icon generated: http://blog.sina.com.cn/favicon.ico
+08-07-13 13:23:52 Debug item inserted
+08-07-13 13:23:52 Debug Memory usage: 11198160
+08-07-13 13:23:52 Debug Memory peak usage: 11534640
+08-07-13 13:23:52 Debug start insertion of new item "8.7大盘直播和操作策略：历史新高不是创业板的终点"
+08-07-13 13:23:52 Debug item content sanitized
+08-07-13 13:23:52 Debug use last icon: http://blog.sina.com.cn/favicon.ico
+08-07-13 13:23:52 Debug item inserted
+08-07-13 13:23:52 Debug Memory usage: 11208808
+08-07-13 13:23:52 Debug Memory peak usage: 11534640
+08-07-13 13:23:52 Debug start insertion of new item "中国的海洋战略暗含的投资启示"
+08-07-13 13:23:52 Debug item content sanitized
+08-07-13 13:23:52 Debug use last icon: http://blog.sina.com.cn/favicon.ico
+08-07-13 13:23:52 Debug item inserted
+08-07-13 13:23:52 Debug Memory usage: 11219400
+08-07-13 13:23:52 Debug Memory peak usage: 11534640
+08-07-13 13:23:52 Debug start insertion of new item "8.6财经要闻评论"
+08-07-13 13:23:52 Debug item content sanitized
+08-07-13 13:23:52 Debug use last icon: http://blog.sina.com.cn/favicon.ico
+08-07-13 13:23:52 Debug item inserted
+08-07-13 13:23:52 Debug Memory usage: 11230080
+08-07-13 13:23:52 Debug Memory peak usage: 11534640
+08-07-13 13:23:52 Debug start insertion of new item "8.6大盘直播和操作策略"
+08-07-13 13:23:52 Debug item content sanitized
+08-07-13 13:23:52 Debug use last icon: http://blog.sina.com.cn/favicon.ico
+08-07-13 13:23:52 Debug item inserted
+08-07-13 13:23:52 Debug Memory usage: 11240600
+08-07-13 13:23:52 Debug Memory peak usage: 11540024
+08-07-13 13:23:52 Debug start insertion of new item "熊市中捉牛股的几种方法"
+08-07-13 13:23:52 Debug item content sanitized
+08-07-13 13:23:52 Debug use last icon: http://blog.sina.com.cn/favicon.ico
+08-07-13 13:23:52 Debug item inserted
+08-07-13 13:23:52 Debug Memory usage: 11251176
+08-07-13 13:23:52 Debug Memory peak usage: 11551648
+08-07-13 13:23:52 Debug start insertion of new item "8.5财经要闻评论"
+08-07-13 13:23:52 Debug item content sanitized
+08-07-13 13:23:52 Debug use last icon: http://blog.sina.com.cn/favicon.ico
+08-07-13 13:23:52 Debug item inserted
+08-07-13 13:23:52 Debug Memory usage: 11261736
+08-07-13 13:23:52 Debug Memory peak usage: 11564896
+08-07-13 13:23:52 Debug destroy spout object
+08-07-13 13:23:52 Debug cleanup orphaned and old items
+08-07-13 13:23:52 Debug cleanup orphaned and old items finished
+08-07-13 13:23:52 Debug delete orphaned thumbnails
+08-07-13 13:23:52 Debug delete orphaned thumbnails finished
+08-07-13 13:23:52 Debug delete orphaned icons
+08-07-13 13:23:52 Debug delete orphaned icons finished
+08-07-13 13:23:52 Debug optimize database
+08-07-13 13:23:52 Debug optimize database finished

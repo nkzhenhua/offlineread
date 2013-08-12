@@ -223,7 +223,7 @@ class Items extends Database {
         }
         
         //username filter
-        if(isset($options['username']) && strlen($options['source']) > 0)
+        if(isset($options['username']) && strlen($options['username']) > 0)
         {
         	if( $options['username'] == "all")
         	{
@@ -239,7 +239,7 @@ class Items extends Database {
         
         //deliver tag
         if( isset($options['delivered']) && $options['delivered'] == 'undeliver')
-        	$where .= "AND delivered=0";
+        	$where .= ' AND delivered=0 ';
         
         // set limit
         if(!is_numeric($options['items']) || $options['items']>200)

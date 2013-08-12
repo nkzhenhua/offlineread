@@ -87,7 +87,7 @@ class Authentication {
         if($this->enabled()) {
         	$userdb = new \daos\User();
         	$res = $userdb->getpasswd($username);
-            if(isset($res) && hash("md5", \F3::get('salt') . $password) == $res) {
+            if(isset($res[0]['passwd']) && hash("md5", \F3::get('salt') . $password) == $res[0]['passwd']) {
                 $this->loggedin = true;
                 $_SESSION['username'] = $username;
                 \F3::set('username',$username);
@@ -106,12 +106,14 @@ class Authentication {
 	 * @param string $password        	
 	 */
 	public function register($username, $password) {
+		
 		$userdb = new \daos\User();
 		if ($userdb->hasUser($username)) {
 			return false;
 		}
 		
 		$pswd = hash ( "md5", \F3::get ( 'salt' ) . $password );
+		echo 'regist passed:'.$pswd.'<p>';
 		$userinfo = array();
 		$userinfo['username'] = $username;
 		$userinfo['passwd'] = $pswd;
