@@ -989,3 +989,229 @@
 08-07-13 13:23:52 Debug delete orphaned icons finished
 08-07-13 13:23:52 Debug optimize database
 08-07-13 13:23:52 Debug optimize database finished
+08-12-13 21:19:23 Debug ---
+08-12-13 21:19:23 Debug start fetching source "xuxiaoming (id: 6)  username:zzh
+08-12-13 21:19:23 Debug spout successfully loaded: spouts\rss\feed
+08-12-13 21:19:23 Debug fetch content
+08-12-13 21:19:24 Debug minimum date: 2013-07-13 21:19:24
+08-12-13 21:19:24 Debug start item fetching
+08-12-13 21:19:24 Debug start insertion of new item "徐小明：周二操作策略"
+08-12-13 21:19:24 Debug item content sanitized
+08-12-13 21:19:24 Debug icon generated: http://blog.sina.com.cn/favicon.ico
+08-12-13 21:19:24 Debug item inserted
+08-12-13 21:19:24 Debug Memory usage: 10717704
+08-12-13 21:19:24 Debug Memory peak usage: 11041336
+08-12-13 21:19:24 Debug start insertion of new item "徐小明：8月13日盘中同步分析提示"
+08-12-13 21:19:24 Debug item content sanitized
+08-12-13 21:19:24 Debug use last icon: http://blog.sina.com.cn/favicon.ico
+08-12-13 21:19:24 Debug item inserted
+08-12-13 21:19:24 Debug Memory usage: 10728184
+08-12-13 21:19:24 Debug Memory peak usage: 11041336
+08-12-13 21:19:24 Debug start insertion of new item "徐小明：分时周期的顶部结构再次形成"
+08-12-13 21:19:24 Debug item content sanitized
+08-12-13 21:19:24 Debug use last icon: http://blog.sina.com.cn/favicon.ico
+08-12-13 21:19:24 Debug item inserted
+08-12-13 21:19:24 Debug Memory usage: 10738728
+08-12-13 21:19:24 Debug Memory peak usage: 11041336
+08-12-13 21:19:24 Debug start insertion of new item "徐小明：周一操作策略"
+08-12-13 21:19:24 Debug item content sanitized
+08-12-13 21:19:24 Debug use last icon: http://blog.sina.com.cn/favicon.ico
+08-12-13 21:19:24 Debug item inserted
+08-12-13 21:19:24 Debug Memory usage: 10749280
+08-12-13 21:19:24 Debug Memory peak usage: 11041336
+08-12-13 21:19:24 Debug start insertion of new item "徐小明：8月12日盘中同步分析提示"
+08-12-13 21:19:24 Debug item content sanitized
+08-12-13 21:19:24 Debug use last icon: http://blog.sina.com.cn/favicon.ico
+08-12-13 21:19:24 Debug item inserted
+08-12-13 21:19:24 Debug Memory usage: 10759864
+08-12-13 21:19:24 Debug Memory peak usage: 11046112
+08-12-13 21:19:24 Debug start insertion of new item "徐小明：下跌若加速，低点要后移"
+08-12-13 21:19:24 Debug item content sanitized
+08-12-13 21:19:24 Debug use last icon: http://blog.sina.com.cn/favicon.ico
+08-12-13 21:19:24 Debug item inserted
+08-12-13 21:19:24 Debug Memory usage: 10770400
+08-12-13 21:19:24 Debug Memory peak usage: 11059552
+08-12-13 21:19:24 Debug start insertion of new item "徐小明：周五操作策略"
+08-12-13 21:19:24 Debug item content sanitized
+08-12-13 21:19:24 Debug use last icon: http://blog.sina.com.cn/favicon.ico
+08-12-13 21:19:24 Debug item inserted
+08-12-13 21:19:24 Debug Memory usage: 10780904
+08-12-13 21:19:24 Debug Memory peak usage: 11073496
+08-12-13 21:19:24 Debug start insertion of new item "徐小明：8月9日盘中同步分析提示"
+08-12-13 21:19:24 Debug item content sanitized
+08-12-13 21:19:24 Debug use last icon: http://blog.sina.com.cn/favicon.ico
+08-12-13 21:19:24 Debug item inserted
+08-12-13 21:19:24 Debug Memory usage: 10791424
+08-12-13 21:19:24 Debug Memory peak usage: 11086920
+08-12-13 21:19:24 Debug start insertion of new item "徐小明：创业板没那么容易跌的三个原因"
+08-12-13 21:19:24 Debug item content sanitized
+08-12-13 21:19:24 Debug use last icon: http://blog.sina.com.cn/favicon.ico
+08-12-13 21:19:24 Debug item inserted
+08-12-13 21:19:24 Debug Memory usage: 10801912
+08-12-13 21:19:24 Debug Memory peak usage: 11100648
+08-12-13 21:19:24 Debug start insertion of new item "徐小明：周四操作策略"
+08-12-13 21:19:24 Debug item content sanitized
+08-12-13 21:19:24 Debug use last icon: http://blog.sina.com.cn/favicon.ico
+08-12-13 21:19:24 Debug item inserted
+08-12-13 21:19:24 Debug Memory usage: 10812424
+08-12-13 21:19:24 Debug Memory peak usage: 11114800
+08-12-13 21:19:24 Debug destroy spout object
+08-12-13 21:19:24 Debug ---
+08-12-13 21:19:24 Debug start fetching source "kaiens (id: 5)  username:zzh
+08-12-13 21:19:24 Debug spout successfully loaded: spouts\rss\feed
+08-12-13 21:19:24 Debug fetch content
+08-12-13 21:19:24 Debug minimum date: 2013-07-13 21:19:24
+08-12-13 21:19:24 Debug start item fetching
+08-12-13 21:19:24 Debug start insertion of new item "8.13大盘直播和操作策略"
+08-12-13 21:19:24 Debug item content sanitized
+08-12-13 21:19:24 Debug icon generated: http://blog.sina.com.cn/favicon.ico
+08-12-13 21:19:24 Debug item inserted
+08-12-13 21:19:24 Debug Memory usage: 11154232
+08-12-13 21:19:24 Debug Memory peak usage: 11672984
+08-12-13 21:19:24 Debug start insertion of new item "投资者如何对待十年一遇的机会？"
+08-12-13 21:19:24 Debug item content sanitized
+08-12-13 21:19:24 Debug use last icon: http://blog.sina.com.cn/favicon.ico
+08-12-13 21:19:24 Debug item inserted
+08-12-13 21:19:24 Debug Memory usage: 11162312
+08-12-13 21:19:24 Debug Memory peak usage: 11672984
+08-12-13 21:19:24 Debug start insertion of new item "8.12财经要闻评论"
+08-12-13 21:19:24 Debug item content sanitized
+08-12-13 21:19:24 Debug use last icon: http://blog.sina.com.cn/favicon.ico
+08-12-13 21:19:24 Debug item inserted
+08-12-13 21:19:24 Debug Memory usage: 11170616
+08-12-13 21:19:24 Debug Memory peak usage: 11672984
+08-12-13 21:19:24 Debug start insertion of new item "8.12大盘直播和操作策略：创业板明年会到1664点"
+08-12-13 21:19:24 Debug item content sanitized
+08-12-13 21:19:24 Debug use last icon: http://blog.sina.com.cn/favicon.ico
+08-12-13 21:19:24 Debug item inserted
+08-12-13 21:19:24 Debug Memory usage: 11179120
+08-12-13 21:19:24 Debug Memory peak usage: 11672984
+08-12-13 21:19:24 Debug start insertion of new item "周预测：为什么说主板泡沫更大？"
+08-12-13 21:19:24 Debug item content sanitized
+08-12-13 21:19:24 Debug use last icon: http://blog.sina.com.cn/favicon.ico
+08-12-13 21:19:24 Debug item inserted
+08-12-13 21:19:24 Debug Memory usage: 11187368
+08-12-13 21:19:24 Debug Memory peak usage: 11672984
+08-12-13 21:19:24 Debug start insertion of new item "投资如习道，成功五要素"
+08-12-13 21:19:24 Debug item content sanitized
+08-12-13 21:19:24 Debug use last icon: http://blog.sina.com.cn/favicon.ico
+08-12-13 21:19:24 Debug item inserted
+08-12-13 21:19:24 Debug Memory usage: 11195512
+08-12-13 21:19:24 Debug Memory peak usage: 11672984
+08-12-13 21:19:24 Debug start insertion of new item "8.9财经要闻评论"
+08-12-13 21:19:24 Debug item content sanitized
+08-12-13 21:19:24 Debug use last icon: http://blog.sina.com.cn/favicon.ico
+08-12-13 21:19:24 Debug item inserted
+08-12-13 21:19:24 Debug Memory usage: 11203752
+08-12-13 21:19:24 Debug Memory peak usage: 11672984
+08-12-13 21:19:24 Debug start insertion of new item "中国金融创新滞后于实体经济"
+08-12-13 21:19:24 Debug item content sanitized
+08-12-13 21:19:24 Debug use last icon: http://blog.sina.com.cn/favicon.ico
+08-12-13 21:19:24 Debug item inserted
+08-12-13 21:19:24 Debug Memory usage: 11211984
+08-12-13 21:19:24 Debug Memory peak usage: 11672984
+08-12-13 21:19:24 Debug start insertion of new item "8.9大盘直播和操作策略"
+08-12-13 21:19:24 Debug item content sanitized
+08-12-13 21:19:24 Debug use last icon: http://blog.sina.com.cn/favicon.ico
+08-12-13 21:19:24 Debug item inserted
+08-12-13 21:19:24 Debug Memory usage: 11220168
+08-12-13 21:19:24 Debug Memory peak usage: 11672984
+08-12-13 21:19:24 Debug start insertion of new item "如无利空打击，股指跌不下来"
+08-12-13 21:19:24 Debug item content sanitized
+08-12-13 21:19:24 Debug use last icon: http://blog.sina.com.cn/favicon.ico
+08-12-13 21:19:24 Debug item inserted
+08-12-13 21:19:24 Debug Memory usage: 11228464
+08-12-13 21:19:24 Debug Memory peak usage: 11672984
+08-12-13 21:19:24 Debug destroy spout object
+08-12-13 21:19:24 Debug cleanup orphaned and old items
+08-12-13 21:19:24 Debug cleanup orphaned and old items finished
+08-12-13 21:19:24 Debug delete orphaned thumbnails
+08-12-13 21:19:24 Debug delete orphaned thumbnails finished
+08-12-13 21:19:24 Debug delete orphaned icons
+08-12-13 21:19:24 Debug delete orphaned icons finished
+08-12-13 21:19:24 Debug optimize database
+08-12-13 21:19:24 Debug optimize database finished
+08-12-13 21:19:32 Debug ---
+08-12-13 21:19:32 Debug start fetching source "xuxiaoming (id: 6)  username:zzh
+08-12-13 21:19:32 Debug spout successfully loaded: spouts\rss\feed
+08-12-13 21:19:32 Debug fetch content
+08-12-13 21:19:32 Debug minimum date: 2013-07-13 21:19:32
+08-12-13 21:19:32 Debug start item fetching
+08-12-13 21:19:32 Debug destroy spout object
+08-12-13 21:19:32 Debug ---
+08-12-13 21:19:32 Debug start fetching source "kaiens (id: 5)  username:zzh
+08-12-13 21:19:32 Debug spout successfully loaded: spouts\rss\feed
+08-12-13 21:19:32 Debug fetch content
+08-12-13 21:19:32 Debug minimum date: 2013-07-13 21:19:32
+08-12-13 21:19:32 Debug start item fetching
+08-12-13 21:19:32 Debug destroy spout object
+08-12-13 21:19:32 Debug cleanup orphaned and old items
+08-12-13 21:19:32 Debug cleanup orphaned and old items finished
+08-12-13 21:19:32 Debug delete orphaned thumbnails
+08-12-13 21:19:32 Debug delete orphaned thumbnails finished
+08-12-13 21:19:32 Debug delete orphaned icons
+08-12-13 21:19:32 Debug delete orphaned icons finished
+08-12-13 21:19:32 Debug optimize database
+08-12-13 21:19:32 Debug optimize database finished
+08-12-13 21:25:48 Debug ---
+08-12-13 21:25:48 Debug start fetching source "yehong (id: 7)  username:zzh
+08-12-13 21:25:48 Debug spout successfully loaded: spouts\rss\feed
+08-12-13 21:25:48 Debug fetch content
+08-12-13 21:25:49 Debug minimum date: 2013-07-13 21:25:49
+08-12-13 21:25:49 Debug start item fetching
+08-12-13 21:25:49 Debug start insertion of new item "八月——创业板、小板仍将施展“吸金大法”"
+08-12-13 21:25:49 Debug item content sanitized
+08-12-13 21:25:49 Debug icon generated: http://blog.sina.com.cn/favicon.ico
+08-12-13 21:25:49 Debug item inserted
+08-12-13 21:25:49 Debug Memory usage: 11105096
+08-12-13 21:25:49 Debug Memory peak usage: 11437872
+08-12-13 21:25:49 Debug start insertion of new item "调控继续——创业板热炒趋势不会轻易改变！"
+08-12-13 21:25:49 Debug item content sanitized
+08-12-13 21:25:49 Debug use last icon: http://blog.sina.com.cn/favicon.ico
+08-12-13 21:25:49 Debug item inserted
+08-12-13 21:25:49 Debug Memory usage: 11136288
+08-12-13 21:25:49 Debug Memory peak usage: 11577760
+08-12-13 21:25:49 Debug item "外挤内压——扭曲生长的超跌反弹行情将继续" (2013-05-29 15:17:28) older than 30 days
+08-12-13 21:25:49 Debug item "两难选择——追高价成长？还是坚守低价低估？" (2013-05-10 16:03:39) older than 30 days
+08-12-13 21:25:49 Debug item "反弹为何总是引发牛市的幻觉？" (2013-05-08 15:16:44) older than 30 days
+08-12-13 21:25:49 Debug item "任凭风浪起——坚守一块属于自己的阵地！" (2013-04-24 15:34:41) older than 30 days
+08-12-13 21:25:49 Debug item "清明时节——四月股市与风雨相伴" (2013-04-03 15:57:01) older than 30 days
+08-12-13 21:25:49 Debug item "逆水行舟——炒股者不可能过得轻松" (2013-03-28 15:50:47) older than 30 days
+08-12-13 21:25:49 Debug item "重压之下——绩优低价地产股是否值得关注？" (2013-03-19 16:03:36) older than 30 days
+08-12-13 21:25:49 Debug item "热点跑偏——题材炒作接力延续反弹行情" (2013-02-28 15:29:11) older than 30 days
+08-12-13 21:25:49 Debug destroy spout object
+08-12-13 21:25:49 Debug ---
+08-12-13 21:25:49 Debug start fetching source "kaiens (id: 5)  username:zzh
+08-12-13 21:25:49 Debug spout successfully loaded: spouts\rss\feed
+08-12-13 21:25:49 Debug fetch content
+08-12-13 21:25:49 Debug minimum date: 2013-07-13 21:25:49
+08-12-13 21:25:49 Debug start item fetching
+08-12-13 21:25:49 Debug destroy spout object
+08-12-13 21:25:49 Debug cleanup orphaned and old items
+08-12-13 21:25:49 Debug cleanup orphaned and old items finished
+08-12-13 21:25:49 Debug delete orphaned thumbnails
+08-12-13 21:25:49 Debug delete orphaned thumbnails finished
+08-12-13 21:25:49 Debug delete orphaned icons
+08-12-13 21:25:49 Debug delete orphaned icons finished
+08-12-13 21:25:49 Debug optimize database
+08-12-13 21:25:49 Debug optimize database finished
+08-12-13 22:27:38 Debug new EPub()
+08-12-13 22:27:38 Debug EPub version: 2.12
+08-12-13 22:27:38 Debug EPub Req. Zip version: 1.38
+08-12-13 22:27:38 Debug Zip version: 1.38
+08-12-13 22:27:38 Debug getCurrentServerURL: http://sites/
+08-12-13 22:27:38 Debug getCurrentPageURL..: http://sites/daemon_start
+08-12-13 22:27:38 Debug Set up parameters
+08-12-13 22:27:38 Debug Add css
+08-12-13 22:28:06 Debug send to:zzh by nkzhenhua_55@iduokan.com from offlineread01@gmail.com
+08-12-13 22:28:19 Debug Message sent!
+08-12-13 22:28:19 Debug new EPub()
+08-12-13 22:28:19 Debug EPub version: 2.12
+08-12-13 22:28:19 Debug EPub Req. Zip version: 1.38
+08-12-13 22:28:19 Debug Zip version: 1.38
+08-12-13 22:28:19 Debug getCurrentServerURL: http://sites/
+08-12-13 22:28:19 Debug getCurrentPageURL..: http://sites/daemon_start
+08-12-13 22:28:19 Debug Set up parameters
+08-12-13 22:28:19 Debug Add css
+08-12-13 22:28:27 Debug send to:zhenhua by nkzhenhua_55@iduokan.com from offlineread01@gmail.com
+08-12-13 22:28:37 Debug Message sent!

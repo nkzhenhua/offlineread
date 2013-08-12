@@ -22,6 +22,29 @@ class EPubCreater {
 		$tLast = $this->tStart;
 		$this->itemsDao = new \daos\Items ();
 	}
+	public function genEpubAndDeliver($username){
+		echo "start gen epub file<br>";
+		$today = date("Ymd");
+		$filename=$username.$today;
+		if (!file_exists ( 'data/epub/' . $filename . '.epub' )) {
+			// unlink('data/epub/'.$filename.'.epub');
+			$succ = $this->crate_book ( $username, "offlineread_" . $today, $filename );
+			if ($succ == false) {
+				echo "no items to send<br>";
+				return;
+			}
+		}else{
+			return;
+		}
+		$user = new \daos\User();
+		$userinfo = $user->getUserinfo($username);
+		if (isset ( $userinfo ['deliver_enable'] ) && $userinfo ['deliver_enable'] == 1) {
+			echo "deliver to ".$username;
+			$email = new Email ();
+			$email->sent_file_to_user ( 'data/epub/' . $filename.'.epub',$username, $userinfo ['deliver_email'], \F3::get ( 'smtp_user' ) );
+		}
+		echo "finished";
+	}
 	public function crate_book($username, $title,$filename) {
 		$book = new \EPub ();
 		$this->logLine( "new EPub()" );

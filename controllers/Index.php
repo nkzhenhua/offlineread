@@ -235,7 +235,18 @@ class Index extends BaseController {
         $loader = new \helpers\ContentLoader();
         $loader->update();
         
-//        echo "finished";
+        echo "finished";
+    }
+    
+    public function daemon_start()
+    {
+    	$daem = new \helpers\daemon();
+    	$daem->start();
+    }
+    public function daemon_stop()
+    {
+    	$daem = new \helpers\daemon();
+    	$daem->stop();
     }
     
     /**
@@ -262,7 +273,6 @@ class Index extends BaseController {
     		echo "deliver to ".$_SESSION ['username'];
 			$email = new \helpers\Email ();
 			$email->sent_file_to_user ( 'data/epub/' . $filename.'.epub', $_SESSION ['username'], $userinfo ['deliver_email'], \F3::get ( 'smtp_user' ) );
-//			$email->sent_file_to_user ( 'data/epub/' . $filename.'.epub', $_SESSION ['username'], 'nkzhenhua@gmail.com', \F3::get ( 'smtp_user' ) );	
     	}
     	echo "finished";
     }

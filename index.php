@@ -74,6 +74,10 @@ $f3->route('POST /register',  'controllers\Index->register');    // json
 $f3->route('GET /logout',     'controllers\Index->logout');   // json
 $f3->route('GET /update',     'controllers\Index->update');   // text
 $f3->route('GET /epub',       'controllers\Index->genEpub');  // text
+$f3->route('GET /daemon_start',       'controllers\Index->daemon_start');  // text
+$f3->route('GET /daemon_stop',       'controllers\Index->daemon_stop');  // text
+
+
 
 // only for loggedin users or on public mode
 if($f3->get('auth')->isLoggedin()===true || \F3::get('public')==1) {

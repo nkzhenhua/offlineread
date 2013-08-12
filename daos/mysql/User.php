@@ -87,7 +87,7 @@ class User extends Database {
      */
     public function getAlluser()
     {
-    	$res = \F3::get('db')->exec(' SELECT * FROM users ');
+    	$res = \F3::get('db')->exec(' SELECT username,deliver_email,deliver_time,deliver_end_date,deliver_enable,source_num_limit,items_num_limit FROM users ');
     	return $res;
     }
     
