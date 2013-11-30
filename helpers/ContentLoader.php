@@ -47,8 +47,16 @@ class ContentLoader {
         }
         $this->cleanup();
     }
-    
 
+    public function updateUser($username) {
+    	$sourcesDao = new \daos\Sources();
+    	foreach($sourcesDao->getLastUpdateOfuser($username) as $source) {
+    		$this->fetch($source);
+    	}
+    	$this->cleanup();
+    }
+    
+   
     /**
      * updates all sources
      *
